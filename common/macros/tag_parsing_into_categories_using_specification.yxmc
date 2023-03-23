@@ -1,0 +1,1633 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="537" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input16</Name>
+          <Abbrev />
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="28" />
+              <Fields>
+                <Field name="uuids" />
+                <Field name="delimited_identifiers" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>00005614-0058-41bc-b155-82805e619f69</c>
+                  <c>61D07 COMP BIAS CHART DHAR TOTAL AREA COUNTS</c>
+                </r>
+                <r>
+                  <c>0000c675-44c1-441b-8ac6-60579c887929</c>
+                  <c>H31065VP</c>
+                </r>
+                <r>
+                  <c>0001e776-d5d1-489a-9322-ce4b3ea2ebf8</c>
+                  <c>FX223004CEXRH2</c>
+                </r>
+                <r>
+                  <c>000247d3-19bc-4fc7-a464-e23b23190052</c>
+                  <c>U41104TK411033B</c>
+                </r>
+                <r>
+                  <c>000248f3-af9f-4f73-b92c-90df43c0da5a</c>
+                  <c>U42204TD422069</c>
+                </r>
+                <r>
+                  <c>0002a82b-c4b8-44a6-a1be-0c87c7d59358</c>
+                  <c>HS457079AA</c>
+                </r>
+                <r>
+                  <c>0003122a-db42-43e4-b7aa-8d03455a2258</c>
+                  <c>YNODETESTTAG170686</c>
+                </r>
+                <r>
+                  <c>00035308-a97e-4c90-877c-14706c0f7358</c>
+                  <c>THS422848C2</c>
+                </r>
+                <r>
+                  <c>0003b22f-d6ad-4e6f-9ecd-6a2d9b5d7bc3</c>
+                  <c>REF 25 DHU STRIPPER BOTTOMS DIST IBP</c>
+                </r>
+                <r>
+                  <c>0003b84f-8bd7-4a0c-ba9a-990afaa9a433</c>
+                  <c>CR222759CS</c>
+                </r>
+                <r>
+                  <c>0003ca3b-69c1-43bc-82dd-ba4aad5efdf7</c>
+                  <c>MANAGEDPI</c>
+                </r>
+                <r>
+                  <c>00042ed2-327a-49bb-af10-da4f2e337a83</c>
+                  <c>UPG TK26156 IMPORTED BITUMEN SIMDIST HT 524C+</c>
+                </r>
+                <r>
+                  <c>00048639-65b4-4db6-aa69-2ab71c0ff5c5</c>
+                  <c>XP1 425 RHC DEPROP BOTTOMS DHAR W C8+ OLEFIN</c>
+                </r>
+                <r>
+                  <c>0004936c-492c-49c5-b744-614f74ded161</c>
+                  <c>IK21267CONXT</c>
+                </r>
+                <r>
+                  <c>00049797-9698-4676-a230-dc44d92e8b01</c>
+                  <c>PALE22D07SP</c>
+                </r>
+                <r>
+                  <c>00056fab-7451-44d0-b6e5-62b51ee2f1f7</c>
+                  <c>U42301TK423411</c>
+                </r>
+                <r>
+                  <c>0005dc2c-9388-4462-a864-211a83eb3850</c>
+                  <c>PPL4WD4</c>
+                </r>
+                <r>
+                  <c>000641fc-8889-4577-88ea-47c3f6b7c596</c>
+                  <c>C42401ASPMODEL</c>
+                </r>
+                <r>
+                  <c>00068b86-a5c0-45b4-8f2c-685fe7abe7ce</c>
+                  <c>UPG TK6104 HSVGO D1160 AET 10%</c>
+                </r>
+                <r>
+                  <c>00072e71-09c9-4e92-a501-985af8ed3268</c>
+                  <c>PC1006OUT</c>
+                </r>
+                <r>
+                  <c>000780fc-1ec2-4c80-a146-dc6e3e118cf0</c>
+                  <c>THE33037TP</c>
+                </r>
+                <r>
+                  <c>0007de65-77a3-49f8-8231-8eedad9a20ab</c>
+                  <c>REF TK6152 CBOB DIST EVP 60% E10</c>
+                </r>
+                <r>
+                  <c>00081ca4-62c8-4d7b-8ac8-1495ebeb54e4</c>
+                  <c>XAHHY411843A</c>
+                </r>
+                <r>
+                  <c>0008417f-36c8-4dd7-80f4-d4528c17b023</c>
+                  <c>484MM04CBP</c>
+                </r>
+                <r>
+                  <c>000859a1-42f7-463a-b880-7519e3e848e4</c>
+                  <c>REF 41 SEU BCS FEED DHAR W TOTAL C7 PARAFFIN</c>
+                </r>
+                <r>
+                  <c>00097239-c868-40da-9b86-9e706535b39a</c>
+                  <c>MODELVAR</c>
+                </r>
+                <r>
+                  <c>00097239-c868-40da-9b86-9e706535b39b</c>
+                  <c>AI2683LSPKEPTOLDHISTORY</c>
+                </r>
+                <r>
+                  <c />
+                  <c />
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="36" source="TextInput:" type="String" />
+            <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1986" y="285" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output17</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1314" y="297" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Union the unclassified records and matched records ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Union the unclassified records and matched records ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1134" y="526" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="uuids" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="uuids" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_uuids" selected="False" rename="Right_uuids" input="Right_" />
+                <SelectField field="Right_delimited_identifiers" selected="False" rename="Right_delimited_identifiers" input="Right_" />
+                <SelectField field="Right_field_tags" selected="False" input="Right_" />
+                <SelectField field="Right_field_ids" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[ filter the records which are not matched on uuid's from the intial input]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[ filter the records which are not matched on uuid's from the intial input]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="uuids" size="36" source="TextInput:" type="String" />
+            <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1230" y="405" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;unclassified&quot;" field="delimited_identifier_format_names" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[populate the tagging_format_type_names to unclassified as they are not matched to any regex 
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[delimited_identifier_format_names = "unclassified"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="36" source="TextInput:" type="String" />
+            <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="Formula: &quot;unclassified&quot;" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1422" y="536" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="uuids" action="GroupBy" rename="uuids" />
+            <SummarizeField field="matching_priorities" action="Min" rename="Min_matching_priorities" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[calculate the min for the tagging format match priorities ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[calculate the min for the tagging format match priorities ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Min_matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1518" y="309" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="uuids" />
+            <Field field="matching_priorities" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="uuids" />
+            <Field field="Min_matching_priorities" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_uuids" selected="True" input="Left_" />
+                <SelectField field="Left_matched_substring" selected="True" input="Left_" />
+                <SelectField field="Left_matched_string" selected="True" input="Left_" />
+                <SelectField field="Left_delimited_identifier_format_uuids" selected="True" input="Left_" />
+                <SelectField field="Left_delimited_identifier_format_names" selected="True" input="Left_" />
+                <SelectField field="Left_delimited_identifiers" selected="True" input="Left_" />
+                <SelectField field="Left_identified_object_types" selected="True" input="Left_" />
+                <SelectField field="Left_matching_priorities" selected="True" input="Left_" />
+                <SelectField field="Left_match_types" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Join to  load the records with lowest tagging format match priorities ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Join to  load the records with lowest tagging format match priorities ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+            <Field field="matching_priorities" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+            <Field field="matching_priorities" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Min_matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+            <Field field="Min_matching_priorities" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1638" y="526" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="uuids" action="GroupBy" rename="uuids" />
+            <SummarizeField field="tagging_format_type_names" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[count the tagging format type name  ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[count the tagging format type name  ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1770" y="526" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Count</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-11-05 10:58:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2020-11-05 10:58:55</StartDate>
+              <EndDate>2020-11-05 10:58:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>select the records where the count more than one</AnnotationText>
+          <DefaultAnnotationText>[Count] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2010" y="464" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Duplicated</Name>
+          <Abbrev>D</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>D Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="285" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>delimnited_identifier_format_specifications</Name>
+          <Abbrev>S</Abbrev>
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="delimited_identifier_format_uuids" />
+                <Field name="delimited_identifier_format_names" />
+                <Field name="identified_object_types" />
+                <Field name="delimited_identifier_regex_patterns" />
+                <Field name="matching_priorities" />
+                <Field name="match_types" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>a448ccf2-a9d8-4891-9c12-1ba40fc68c75</c>
+                  <c>General Format/Instrument</c>
+                  <c>Process Equipmen</c>
+                  <c>[A-Z]{1,4}-[0-9]{2}[0-9]{2}</c>
+                  <c>100</c>
+                  <c>Partial</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Use tagging_formats.yxdb for identifying the type of the tag ]]></AnnotationText>
+          <DefaultAnnotationText>Use tagging_formats.yxdb for identifying the type of the tag 
+S Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+            <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+            <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+            <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+            <Field name="matching_priorities" source="TextInput:" type="Byte" />
+            <Field name="match_types" size="7" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1710" y="297" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>uuids</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-12-18 14:22:54</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-12-18 14:22:54</StartDate>
+              <EndDate>2020-12-18 14:22:54</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[select the records where the uuid's is not empty ]]></AnnotationText>
+          <DefaultAnnotationText>!IsNull([uuids])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+            <Field field="matching_priorities" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+            <Field field="matching_priorities" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1842" y="285" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if !IsNull([matched_substring]) then&#xA;[matched_substring]&#xA;else&#xA;[matched_string]&#xA;endif" field="matched_string" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>replace  matched string value with matched substring</AnnotationText>
+          <DefaultAnnotationText>matched_string = if !IsNull([matched_substring]) then
+[matched_substring]
+else
+[...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: if !IsNull([matched_substring]) then&#xA;[matched_substring]&#xA;else&#xA;[matched_string]&#xA;endif" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+            <Field field="matching_priorities" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1854" y="465" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="uuids" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="uuids" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_uuids" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join to load duplicates records into other output on uuid's</AnnotationText>
+          <DefaultAnnotationText>Join to load duplicates records into other output on uuid's</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+            <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Summarize: GroupBy - uuids" type="V_WString" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="uuids" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="245" y="54" width="915" height="472" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>spec parsing</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="414" y="175" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Append the field from the input and the tagging_formats</AnnotationText>
+              <DefaultAnnotationText>Append the field from the input and the tagging_formats</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="666" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" field="Match" size="1" type="Bool" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Use the matching of regex in tagging_format_regex_patterns on the field_tags ]]></AnnotationText>
+              <DefaultAnnotationText>Match = REGEX_Match([delimited_identifiers], [delimited_identifier_regex_pattern...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+                <Field name="Match" source="Formula: REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="774" y="128" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsTrue</Operator>
+                <Field>Match</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-08-21 11:52:45</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2020-08-21 11:52:45</StartDate>
+                  <EndDate>2020-08-21 11:52:45</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Filter all the records which are matched ]]></AnnotationText>
+              <DefaultAnnotationText>[Match] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+                <Field name="Match" source="Formula: REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+                <Field name="Match" source="Formula: REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="282" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Select uuid's and field ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Select uuid's and field ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1062" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="uuids" selected="True" />
+                <SelectField field="matched_substring" selected="True" />
+                <SelectField field="Match" selected="False" />
+                <SelectField field="matched_string" selected="True" />
+                <SelectField field="delimited_identifier_format_uuids" selected="True" />
+                <SelectField field="delimited_identifier_format_names" selected="True" />
+                <SelectField field="delimited_identifier_regex_patterns" selected="False" />
+                <SelectField field="delimited_identifiers" selected="True" />
+                <SelectField field="identified_object_types" selected="True" />
+                <SelectField field="matching_priorities" selected="True" />
+                <SelectField field="match_types" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Select and Rename the columns ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Select and Rename the columns ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+                <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+                <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="354" y="284" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="delimited_identifier_format_uuids" selected="True" />
+                <SelectField field="delimited_identifier_format_names" selected="True" />
+                <SelectField field="identified_object_types" selected="True" />
+                <SelectField field="delimited_identifier_regex_patterns" selected="True" />
+                <SelectField field="matching_priorities" selected="True" />
+                <SelectField field="match_types" selected="True" />
+                <SelectField field="tagging_format_uuids" selected="True" />
+                <SelectField field="tagging_format_ids" selected="True" />
+                <SelectField field="tagged_asset_types" selected="True" />
+                <SelectField field="tagging_format_types" selected="True" rename="tagging_format_type_names" />
+                <SelectField field="tagging_format_regex_patterns" selected="True" />
+                <SelectField field="tagging_format_match_priorities" selected="True" />
+                <SelectField field="tagging_format_match_types" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Select the tagging format fields and rename it ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Select the tagging format fields and rename it ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="522" y="188" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>match_types</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-11-26 08:27:18</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-11-26 08:27:18</StartDate>
+                  <EndDate>2021-11-26 08:27:18</EndDate>
+                  <Operand>Full</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filter the records when the tagging_format_match_types = "Full"</AnnotationText>
+              <DefaultAnnotationText>[match_types] = "Full"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="JupyterCode">
+            <Position x="858" y="320" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <WorkflowName>c:\users\mesbah.khan\onedrive - shell\apd\asset\bclearer\macros\tag_parsing_into_categories_using_specification.yxmc</WorkflowName>
+              <JupyterGuidDir>19612a4feebd429dd9e674af9b0bb82c</JupyterGuidDir>
+              <JupyterProduction>false</JupyterProduction>
+              <vEnvName>designerbasetools_venv</vEnvName>
+              <DefaultVenv>1</DefaultVenv>
+              <productionModeScript>#################################
+# List all non-standard packages to be imported by your 
+# script here (only missing packages will be installed)
+from ayx import Package
+#Package.installPackages(['pandas','numpy'])
+
+
+#################################
+from ayx import Alteryx
+import re
+import pandas as pd
+data_set = Alteryx.read("#1")
+columns = list(data_set.columns)
+matches = [[]]
+for index, row in data_set.iterrows():
+    #print("checking for",row['tagging_format_regex_patterns'], "in", row['field_tags'])
+    regex_results = re.findall(row['tagging_format_regex_patterns'],
+                               row['field_tags'])
+    if len(regex_results) &gt;0:
+        for result in regex_results:
+            #print("result:",result)
+            matched_row = row.tolist()
+            #print("matched row:",matched_row)
+            matched_row.append(result)
+            #print("new_row:",matched_row)
+            matches.append(matched_row)
+            #print ("appending row", matches)
+
+#print(matches[1:])            
+columns.append("matched_substring")
+
+matched_dataset = pd.DataFrame(matches[1:],columns=columns)
+
+Alteryx.write(matched_dataset,1)
+    
+
+
+#################################
+</productionModeScript>
+              <Port>57210</Port>
+              <JupyterGuidCopy />
+              <LastExecutedByEngineVersion>2021.3.1.47945</LastExecutedByEngineVersion>
+              <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"code","execution_count":2,"metadata":{},"outputs":[],"source":["from ayx import Alteryx\n","import re\n","import pandas as pd\n","\n","data_set = Alteryx.read(\"#1\")\n","columns = list(data_set.columns)\n","matches = [[]]\n","for index, row in data_set.iterrows():\n","    #print(\"checking for\",row['delimited_identifier_regex_patterns'], \"in\", row['delimited_identifiers'])\n","    regex_results = re.findall(row['delimited_identifier_regex_patterns'],row['delimited_identifiers'])\n","    if len(regex_results) >0:\n","        for result in regex_results:\n","            #print(\"result:\",result)\n","            matched_row = row.tolist()\n","            #print(\"matched row:\",matched_row)\n","            matched_row.append(result)\n","            #print(\"new_row:\",matched_row)\n","            matches.append(matched_row)\n","            #print (\"appending row\", matches)\n","\n","#print(matches[1:])            \n","columns.append(\"matched_substring\")\n","\n","matched_dataset = pd.DataFrame(matches[1:],columns=columns)\n","\n","Alteryx.write(matched_dataset,1)\n","    "]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.5"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[For Partial match , use the python program to find the match from  regex in tagging_format_regex_patterns on the field_tags ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[For Partial match , use the python program to find the match from  regex in tagging_format_regex_patterns on the field_tags ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="870" y="128" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[delimited_identifiers]" field="matched_string" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[matched_string = [delimited_identifiers]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+                <Field name="Match" source="Formula: REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" type="Bool" />
+                <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="966" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Union the data for partial and full matched tags</AnnotationText>
+              <DefaultAnnotationText>Union the data for partial and full matched tags</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="delimited_identifier_format_uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="delimited_identifier_format_names" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="delimited_identifier_regex_patterns" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="delimited_identifiers" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="uuids" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="identified_object_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="matching_priorities" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="match_types" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="matched_substring" size="1073741823" source="PythonTool:" type="V_WString" />
+                <Field name="Match" source="Formula: REGEX_Match([delimited_identifiers], [delimited_identifier_regex_patterns])" type="Bool" />
+                <Field name="matched_string" size="1073741823" source="Formula: [delimited_identifiers]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="270" y="284" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="714" y="320" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Union the dummy records with the  records when field_tag is not empty ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Union the dummy records with the  records when field_tag is not empty ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="522" y="440" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="delimited_identifier_format_uuids" />
+                <Field name="delimited_identifier_format_names" />
+                <Field name="delimited_identifier_regex_patterns" />
+                <Field name="delimited_identifiers" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>dummy</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="delimited_identifier_format_uuids" source="TextInput:" type="Byte" />
+                <Field name="delimited_identifier_format_names" source="TextInput:" type="Byte" />
+                <Field name="delimited_identifier_regex_patterns" source="TextInput:" type="Byte" />
+                <Field name="delimited_identifiers" size="5" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="618" y="296" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotEmpty</Operator>
+                <Field>delimited_identifiers</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-11-26 08:27:56</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-11-26 08:27:56</StartDate>
+                  <EndDate>2021-11-26 08:27:56</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsEmpty([delimited_identifiers])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifiers" size="45" source="TextInput:" type="V_String" />
+                <Field name="delimited_identifier_format_uuids" size="36" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_format_names" size="25" source="TextInput:" type="String" />
+                <Field name="identified_object_types" size="16" source="TextInput:" type="String" />
+                <Field name="delimited_identifier_regex_patterns" size="27" source="TextInput:" type="String" />
+                <Field name="matching_priorities" source="TextInput:" type="Byte" />
+                <Field name="match_types" size="7" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Right" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="42" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="False" />
+      <Destination ToolID="42" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="10" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="10" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="False" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="Output1" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (16)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (28)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (33)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>tag_parsing_into_categories_using_specification</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0c39235d-ea03-4796-9cd8-7a915792c413" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="0c39235d-ea03-4796-9cd8-7a915792c413" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (15)</Name>
+          <ToolId value="15" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (16)</Description>
+              <Name>Macro Input (16)</Name>
+              <ToolId value="16" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (17)</Description>
+              <Name>Macro Output (17)</Name>
+              <ToolId value="17" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (28)</Description>
+              <Name>Macro Output (28)</Name>
+              <ToolId value="28" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (33)</Description>
+              <Name>Macro Input (33)</Name>
+              <ToolId value="33" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="16" Selected="True" />
+        <Tool ToolId="17" Selected="True" />
+        <Tool ToolId="28" Selected="True" />
+        <Tool ToolId="33" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

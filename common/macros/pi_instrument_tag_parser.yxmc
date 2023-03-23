@@ -1,0 +1,1041 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2322" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output22</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings>
+        <Position x="1926" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Input2"><![CDATA[uuids=uuids
+Field_Tag=Field_Tag
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>tag_remove_delimiter (46)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output18">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+            <Field name="Field_Tag" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Dash" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Num_L1" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Char_L1" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Num_L2" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Char_L2" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_2" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_3" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="tag_remove_delimiter.yxmc" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1986" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_cd611cae3ef74c05a9bcd2964f4a2809_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="2214" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="uuids" />
+            <Field name="Field" />
+            <Field name="full_field_tag" />
+            <Field name="Field_Tag" />
+            <Field name="Field_Tag_2" />
+            <Field name="Field_Tag_3" />
+            <Field name="Field_Tag_Extension" />
+            <Field name="Field_Tag_Dash" />
+            <Field name="Field_Tag_Num_L1" />
+            <Field name="Field_Tag_Char_L1" />
+            <Field name="Field_Tag_Num_L2" />
+            <Field name="Field_Tag_Char_L2" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>Replace([_CurrentField_], 'Field', 'pi_instrumenttag')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="pi_instrumenttag" size="47" source="(Multiple Sources)" type="String" />
+            <Field name="pi_instrumenttag_Tag" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field" name="pi_instrumenttag_Tag_Extension" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="pi_instrumenttag_Tag_Dash" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="pi_instrumenttag_Tag_Num_L1" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="pi_instrumenttag_Tag_Char_L1" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="pi_instrumenttag_Tag_Num_L2" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Field_Tag" name="pi_instrumenttag_Tag_Char_L2" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="pi_instrumenttag_Tag_2" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="pi_instrumenttag_Tag_3" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>input_data</Name>
+          <Abbrev />
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="uuids" />
+                <Field name="Field" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>sdfdsag23asdfg</c>
+                  <c>IASeries.226V03CP.XHS226204.DEVLM2#AR#FA2000#P1</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field" size="47" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="154" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="uuids" selected="True" />
+            <SelectField field="Field" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field" size="47" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="250" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Field"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Field" size="47" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="357" y="54" width="1453" height="547" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>process instrumenttag</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="382" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field</Field>
+              <RegExExpression value="(\w*):" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Field</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>Name_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>trim prefix
+
+Example:
+
+LIMS:TK95.Density@15C_Gen60Cal (Middle) 
+
+to 
+
+TK95.Density@15C_Gen60Cal (Middle)</AnnotationText>
+              <DefaultAnnotationText>trim prefix
+
+Example:
+
+LIMS:TK95.Density@15C_Gen60Cal (Middle) 
+
+to 
+
+TK95.Density@15C_Gen60Cal (Middle)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="934" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field</Field>
+              <RegExExpression value="(.*)\.(.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Field</RootName>
+                <NumFields value="2" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Field_Tag" type="V_String" size="255" />
+                <Field field="Field_Tag_Extension" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>Select (x)_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>split extension
+
+Example:
+
+102LT004A.PV 
+
+to 
+
+102LT004A (Tag) 
+
+PV (Tag_Extension)</AnnotationText>
+              <DefaultAnnotationText>split extension
+
+Example:
+
+102LT004A.PV 
+
+to 
+
+102LT004A (Tag) 
+
+PV (Tag_Extension)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag" size="255" source="RegEx: Parsed from Field" type="V_String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="RegEx: Parsed from Field" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1066" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_cee7deb302804a4ebeb17f7eeaac1f5e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1066" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="If IsNull([Field_Tag]) then [Field] else [Field_Tag] ENDIF" field="Field_Tag" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Field_Tag = If IsNull([Field_Tag]) then [Field] else [Field_Tag] ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag" size="255" source="Formula: If IsNull([Field_Tag]) then [Field] else [Field_Tag] ENDIF" type="V_String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="RegEx: Parsed from Field" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1258" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="ReplaceChar([Field_Tag], '_', '')" field="Field_Tag" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Field_Tag = ReplaceChar([Field_Tag], '_', '')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag" size="255" source="Formula: ReplaceChar([Field_Tag], '_', '')" type="V_String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="RegEx: Parsed from Field" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="1378" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field_Tag</Field>
+              <RegExExpression value="-(.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Field_Tag</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Field_Tag_Dash" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>Name_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[split by dash
+
+Example:
+
+111BD002-GO
+
+to 
+
+GO (Tag_Dash)
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[split by dash
+
+Example:
+
+111BD002-GO
+
+to 
+
+GO (Tag_Dash)]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag" size="255" source="Formula: ReplaceChar([Field_Tag], '_', '')" type="V_String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="RegEx: Parsed from Field" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Dash" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="1630" y="259" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field_Tag</Field>
+              <RegExExpression value="(\d*)([A-Z]*)(\d*)([A-Z]*)?" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Field_Tag</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Field_Tag_Num_L1" type="V_String" size="255" />
+                <Field field="Field_Tag_Char_L1" type="V_String" size="255" />
+                <Field field="Field_Tag_Num_L2" type="V_String" size="255" />
+                <Field field="Field_Tag_Char_L2" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>Name_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>split tag components
+
+Example:
+
+100PZA021.PV
+
+100 (Tag Numerical Level 1)
+PZA (Tag Alphabet Level 1)
+021 (Tag Numerical Level 2)
+*Blank (Tag Alphabet Level 2)</AnnotationText>
+              <DefaultAnnotationText>split tag components
+
+Example:
+
+100PZA021.PV
+
+100 (Tag Numerical Level 1)
+PZA (Tag Alphabet Level 1)
+021 (Tag Numerical Level 2)
+*Blank (Tag Alphabet Level 2)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag" size="255" source="Formula: ReplaceChar([Field_Tag], '_', '')" type="V_String" />
+                <Field description="RegEx: Parsed from Field" name="Field_Tag_Extension" size="255" source="RegEx: Parsed from Field" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Dash" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Num_L1" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Char_L1" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Num_L2" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+                <Field description="RegEx: Parsed from Field_Tag" name="Field_Tag_Char_L2" size="255" source="RegEx: Parsed from Field_Tag" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1270" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_138b77c6cfef4895b73f2f452c8d747e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1498" y="151" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_b1ab6e35ce414cb8bbd302eeb344e683_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="478" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>Field</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-07-24 11:56:27</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Root</Operand>
+                  <StartDate>2020-07-24 11:56:27</StartDate>
+                  <EndDate>2020-07-24 11:56:27</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([Field],"Root")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="826" y="283" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="(Multiple Sources)" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="574" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Field</Field>
+              <RegExExpression value="[^.]+" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Field</RootName>
+                <NumFields value="6" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+              </ParseComplex>
+              <Match>
+                <Field>PI_instrumenttag_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Tokenize Root.U00000.MAN.000NN001.Value by separating each element from a period ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Tokenize Root.U00000.MAN.000NN001.Value by separating each element from a period ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Field" size="47" source="Formula: [_CurrentField_]" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field1" size="47" source="RegEx: Parsed from Field" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field2" size="47" source="RegEx: Parsed from Field" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field3" size="47" source="RegEx: Parsed from Field" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field4" size="47" source="RegEx: Parsed from Field" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field5" size="47" source="RegEx: Parsed from Field" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field6" size="47" source="RegEx: Parsed from Field" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="718" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field" selected="False" />
+                <SelectField field="Field1" selected="False" />
+                <SelectField field="Field2" selected="False" />
+                <SelectField field="Field3" selected="False" />
+                <SelectField field="Field4" selected="True" rename="Field" />
+                <SelectField field="Field5" selected="False" />
+                <SelectField field="Field6" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+                <Field description="RegEx: Parsed from Field" name="Field" size="47" source="RegEx: Parsed from Field" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="718" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_6919ab752d0a4a1bab23eed9b6264561_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1726" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Mesbah.Khan\AppData\Local\Temp\Engine_18560_50c82e441e3a430082c7c8ee8edf3c23_\Engine_12904_93d48a32ee6347b4aac308ccaed4caa0_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="54" Connection="Output18" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output18" />
+      <Destination ToolID="52" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="54" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="13" Connection="False" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>pi_instrument_tag_parser</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (20)</Name>
+          <ToolId value="20" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (21)</Description>
+              <Name>Macro Input (21)</Name>
+              <ToolId value="21" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (22)</Description>
+              <Name>Macro Output (22)</Name>
+              <ToolId value="22" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="22" Selected="True" />
+        <Tool ToolId="54" Selected="True" />
+        <Tool ToolId="50" Selected="False" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="17" Selected="True" />
+        <Tool ToolId="4" Selected="False" />
+        <Tool ToolId="10" Selected="False" />
+        <Tool ToolId="11" Selected="False" />
+        <Tool ToolId="18" Selected="False" />
+        <Tool ToolId="51" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

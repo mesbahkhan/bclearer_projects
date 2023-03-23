@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="257" width="337" height="177" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>extract node relations</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings>
+            <Position x="77" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="File Browse (3)">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\l_extract_connection_xml.yxmd</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>l_extract_connection_xml</AnnotationText>
+              <DefaultAnnotationText>Load Configuration</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="CReW_Runner.yxmc" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings>
+            <Position x="258" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="File Browse (6)">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\l_extract_relation_orgin_destination.yxmd</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>l_extract_relation_orgin_destination</AnnotationText>
+              <DefaultAnnotationText>Load Annotation</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="CReW_ConditionalRunner.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="55" y="65" width="477" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption><![CDATA[extract all the attributes of nodes ]]></Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="80" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="File Browse (3)">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\l_extract_node_id_type.yxmd</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>l_extract_node_id_type</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Load Connection ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="CReW_Runner.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings>
+            <Position x="258" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="File Browse (6)">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\l_extract_configuration_xml.yxmd</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>l_extract_configuration_xml</AnnotationText>
+              <DefaultAnnotationText>Load Origin and Destination Relation</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="CReW_ConditionalRunner.yxmc" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="402" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="File Browse (6)">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\l_extract_annotation_xml.yxmd</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>l_extract_annotation_xml</AnnotationText>
+              <DefaultAnnotationText>l_extract_configuration_xml</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="CReW_ConditionalRunner.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output24" />
+      <Destination ToolID="7" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output24" />
+      <Destination ToolID="9" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output3" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Load XML Orchestrater</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

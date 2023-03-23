@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidifed_alteryx_workflow_nodes.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Uuid's" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="Node_id" size="3" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+            <Field name="Nodes_OuterXML" size="16485" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\e_pi_parse_pi_tags.xml" type="V_String" />
+            <Field name="Node_OuterXML" size="6348" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+            <Field name="Node_type" size="47" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="210" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>Node_OuterXML</XMLField>
+          <XMLElement>ChildNodes</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Uuid's" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="Node_id" size="3" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+            <Field name="Nodes_OuterXML" size="16485" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Workflow\e_pi_parse_pi_tags.xml" type="V_String" />
+            <Field name="Node_OuterXML" size="6348" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+            <Field name="Node_type" size="47" source="File: C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes.yxdb" type="V_String" />
+            <Field name="ChildNodes" size="43" type="V_String" />
+            <Field name="Node" size="42" type="V_String" />
+            <Field name="Node_ToolID" size="2" type="V_String" />
+            <Field name="Node_2" size="42" type="V_String" />
+            <Field name="Node_2_ToolID" size="2" type="V_String" />
+            <Field name="Node_3" size="42" type="V_String" />
+            <Field name="Node_3_ToolID" size="3" type="V_String" />
+            <Field name="Node_4" size="42" type="V_String" />
+            <Field name="Node_4_ToolID" size="3" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ChildNodes" selected="False" />
+            <SelectField field="Node" selected="False" />
+            <SelectField field="Node_ToolID" selected="True" rename="Child_Node_1" />
+            <SelectField field="Node_2" selected="False" />
+            <SelectField field="Node_2_ToolID" selected="True" rename="Child_Node_2" />
+            <SelectField field="Node_3" selected="False" />
+            <SelectField field="Node_3_ToolID" selected="True" rename="Child_Node_3" />
+            <SelectField field="Node_4" selected="False" />
+            <SelectField field="Node_4_ToolID" selected="True" rename="Child_Node_4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="450" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Uuid's" />
+            <Field field="Node_id" />
+            <Field field="Nodes_OuterXML" />
+            <Field field="Node_OuterXML" />
+            <Field field="Node_type" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Uuid's" selected="False" />
+            <Field field="Node_id" selected="False" />
+            <Field field="Nodes_OuterXML" selected="False" />
+            <Field field="Node_OuterXML" selected="False" />
+            <Field field="Node_type" selected="False" />
+            <Field field="Child_Node_1" selected="True" />
+            <Field field="Child_Node_2" selected="True" />
+            <Field field="Child_Node_3" selected="True" />
+            <Field field="Child_Node_4" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="True" rename="Child_Node_id" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="630" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Uuid's" />
+            <Field field="Node_id" />
+            <Field field="Nodes_OuterXML" />
+            <Field field="Node_OuterXML" />
+            <Field field="Node_type" />
+            <Field field="Child_Node_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="738" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Sakshi.S.Sharma\Desktop\bclearer_specification\Data\uuidifed_alteryx_workflow_nodes_with_childnode.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidifed_alteryx_workflow_nodes_with_childnode.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>i_extract_node_id_type_child_node</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

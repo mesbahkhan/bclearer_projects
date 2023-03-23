@@ -1,0 +1,798 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input2</Name>
+          <Abbrev />
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="uuids" />
+                <Field name="Field_Tag" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>wdsfsgd3425345</c>
+                  <c>Field_Tag</c>
+                </r>
+                <r>
+                  <c>effgfgghhjhhj</c>
+                  <c>SHELL.H</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Passing uuid's and field_tag as input value for the function</AnnotationText>
+          <DefaultAnnotationText>Passing uuid's and field_tag as input value for the function
+Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" field="tag_has_dash_delimiters" size="1" type="Bool" />
+            <FormulaField expression="FindString([Field_Tag],&quot;.&quot;)&gt;1" field="tag_has_dot_delimiters" size="1" type="Bool" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Find if the delimiter '-' or'.' is there in the field_tag ]]></AnnotationText>
+          <DefaultAnnotationText>tag_has_dash_delimiters = FindString([Field_Tag],"-")&gt;1
+
+tag_has_dot_delimiters ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="558" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsTrue</Operator>
+            <Field>tag_has_dash_delimiters</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-08-21 14:11:13</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-08-21 14:11:13</StartDate>
+              <EndDate>2020-08-21 14:11:13</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Filter the records where the dash is present in field_tag i.e.tag_has_dash_delimiters is true ]]></AnnotationText>
+          <DefaultAnnotationText>[tag_has_dash_delimiters] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter the columns (uuids,Field_Tag,tag_has_dash_delimiters,tag_has_dot_delimiters	)</AnnotationText>
+          <DefaultAnnotationText>Filter the columns (uuids,Field_Tag,tag_has_dash_delimiters,tag_has_dot_delimiters	)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1266" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Union all the records .i.e. records which doesn’t have dash and dot in the Field_Tag  , records which has dash in Field_Tag , records which has dot in the Field_Tag  ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Union all the records .i.e. records which doesn’t have dash and dot in the Field_Tag  , records which has dash in Field_Tag , records which has dot in the Field_Tag  ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="(Multiple Sources)" type="String" />
+            <Field name="Field_Tag" size="9" source="(Multiple Sources)" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_2" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_3" size="9" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1362" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAKSHI~1.SHA\AppData\Local\Temp\Engine_11632_f9cd089be6784682bc921f385e422296_\Engine_13952_b3af83eac7da47a8a68e6304961d5aee_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAKSHI~1.SHA\AppData\Local\Temp\Engine_11632_f9cd089be6784682bc921f385e422296_\Engine_13952_398a455173a248e69d85d7780c419e89_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsTrue</Operator>
+            <Field>tag_has_dot_delimiters</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-08-21 14:12:52</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-08-21 14:12:52</StartDate>
+              <EndDate>2020-08-21 14:12:52</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Filter the records where the dot is present in field_tag i.e.tag_has_dot_delimiters is true ]]></AnnotationText>
+          <DefaultAnnotationText>[tag_has_dot_delimiters] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="654" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_Tag</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>split_by_dash</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Split the field tag by dash into two columns ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Split the field tag by dash into two columns ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dash1" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dash2" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="798" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_Tag</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>split_by_dot</RootName>
+          <Delimeters value="." />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Split the field tag by dot into two columns ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Split the field tag by dot into two columns ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot1" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot2" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot3" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_Tag" selected="False" />
+            <SelectField field="tag_has_dash_delimiters" selected="False" />
+            <SelectField field="tag_has_dot_delimiters" selected="False" />
+            <SelectField field="split_by_dash1" selected="True" rename="Field_Tag" />
+            <SelectField field="split_by_dash2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select the uuids and field which has value before the dash as Field_Tag</AnnotationText>
+          <DefaultAnnotationText>Select the uuids and field which has value before the dash as Field_Tag</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="978" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"split_by_dot1","split_by_dot2"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Convert the value after the split by dot into upper case ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Convert the value after the split by dot into upper case ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Field_Tag" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Bool" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot1" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot2" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot3" size="9" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1062" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_Tag" selected="False" />
+            <SelectField field="tag_has_dash_delimiters" selected="False" />
+            <SelectField field="tag_has_dot_delimiters" selected="False" />
+            <SelectField field="split_by_dot1" selected="True" rename="Field_Tag" />
+            <SelectField field="split_by_dot2" selected="True" rename="Field_Tag_2" />
+            <SelectField field="split_by_dot3" selected="True" rename="Field_Tag_3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename the split by dot fields into Field_Tag , Field_Tag_2 ,Field_Tag_3</AnnotationText>
+          <DefaultAnnotationText>Rename the split by dot fields into Field_Tag , Field_Tag_2 ,Field_Tag_3</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_2" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_3" size="9" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1614" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output18</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[load the data as a Output  ]]></AnnotationText>
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Filter the columns ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Filter the columns ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="tag_has_dash_delimiters" selected="False" />
+            <SelectField field="tag_has_dot_delimiters" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Select the records which doesn’t have dash and dot in the Field_Tag ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Select the records which doesn’t have dash and dot in the Field_Tag ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Select all the fields ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Select all the fields ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="TextInput:" type="String" />
+            <Field name="Field_Tag" size="9" source="TextInput:" type="String" />
+            <Field name="tag_has_dash_delimiters" source="Formula: FindString([Field_Tag],&quot;-&quot;)&gt;1&#xA;" type="Bool" />
+            <Field name="tag_has_dot_delimiters" source="Formula: FindString([Field_Tag],&quot;.&quot;)&gt;1" type="Bool" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot1" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot2" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="split_by_dot3" size="9" source="TextToColumns: Parsed from Field_Tag" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1374" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="uuids" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="(Multiple Sources)" type="String" />
+            <Field name="Field_Tag" size="9" source="(Multiple Sources)" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_2" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_3" size="9" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="uuids" size="14" source="(Multiple Sources)" type="String" />
+            <Field name="Field_Tag" size="9" source="(Multiple Sources)" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_2" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="TextToColumns: Parsed from Field_Tag" name="Field_Tag_3" size="9" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="uuids" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="False" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (2)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (15)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>tag_remove_delimiter</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (2)</Description>
+              <Name>Macro Input (2)</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (18)</Description>
+              <Name>Macro Output (15)</Name>
+              <ToolId value="15" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="7" Selected="False" />
+        <Tool ToolId="8" Selected="False" />
+        <Tool ToolId="13" Selected="True" />
+        <Tool ToolId="15" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\Common\Data\Text\abbreviations.xlsx|||`Abbreviations$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>abbreviations.xlsx
+Query=`Abbreviations$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Abbreviation" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\Common\Data\Text\abbreviations.xlsx|||`Abbreviations$`" type="V_String" />
+            <Field name="Full" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\Common\Data\Text\abbreviations.xlsx|||`Abbreviations$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\Common\Data\Text\abbreviations.xlsx|||`Abbreviations$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="822" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\Common\Data\uuidified_abbreviations.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_abbreviations.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="UuidCreate()" field="uuids" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[uuids = UuidCreate()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="81" />
+          <Fields>
+            <Field name="abbreviation_codes" />
+            <Field name="abbreviated_phrases" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Communic.</c>
+              <c>Communication</c>
+            </r>
+            <r>
+              <c><![CDATA[Misc ]]></c>
+              <c>Miscellaneous</c>
+            </r>
+            <r>
+              <c><![CDATA[DET ]]></c>
+              <c>Detector</c>
+            </r>
+            <r>
+              <c>Abs.</c>
+              <c><![CDATA[Absolute ]]></c>
+            </r>
+            <r>
+              <c>Press.</c>
+              <c><![CDATA[Pressure ]]></c>
+            </r>
+            <r>
+              <c>Electr.</c>
+              <c>Electrical</c>
+            </r>
+            <r>
+              <c>Syst</c>
+              <c>System</c>
+            </r>
+            <r>
+              <c>Incl.</c>
+              <c>Including</c>
+            </r>
+            <r>
+              <c>Displ.</c>
+              <c><![CDATA[Displacement ]]></c>
+            </r>
+            <r>
+              <c>Diff.</c>
+              <c><![CDATA[Differential ]]></c>
+            </r>
+            <r>
+              <c>Atm.</c>
+              <c>Atmospheric</c>
+            </r>
+            <r>
+              <c>Condition.</c>
+              <c>Conditioning</c>
+            </r>
+            <r>
+              <c>M.</c>
+              <c><![CDATA[Measurement ]]></c>
+            </r>
+            <r>
+              <c>Exchan.</c>
+              <c>Exchanger</c>
+            </r>
+            <r>
+              <c>Exch.</c>
+              <c>Exchanger</c>
+            </r>
+            <r>
+              <c>Elec.</c>
+              <c>Electrical</c>
+            </r>
+            <r>
+              <c><![CDATA[Elec ]]></c>
+              <c><![CDATA[Electrical ]]></c>
+            </r>
+            <r>
+              <c>Misc.</c>
+              <c><![CDATA[Miscellaneous ]]></c>
+            </r>
+            <r>
+              <c>Equip.</c>
+              <c>Equipment</c>
+            </r>
+            <r>
+              <c>Hydr.</c>
+              <c><![CDATA[Hydraulic ]]></c>
+            </r>
+            <r>
+              <c>Mech.</c>
+              <c>Mechanical</c>
+            </r>
+            <r>
+              <c>Furn.</c>
+              <c>Furnace</c>
+            </r>
+            <r>
+              <c>Liq.</c>
+              <c>Liquid</c>
+            </r>
+            <r>
+              <c>Ionis.</c>
+              <c>Ionisation</c>
+            </r>
+            <r>
+              <c>Compr.</c>
+              <c>Compressor</c>
+            </r>
+            <r>
+              <c>An.</c>
+              <c>Analyser</c>
+            </r>
+            <r>
+              <c>Horizont.</c>
+              <c>Horizontal</c>
+            </r>
+            <r>
+              <c>Cent.</c>
+              <c>Centrifugal</c>
+            </r>
+            <r>
+              <c>Conductiv.</c>
+              <c>Conductivity</c>
+            </r>
+            <r>
+              <c>Instr.</c>
+              <c>Instrument</c>
+            </r>
+            <r>
+              <c>Sp.</c>
+              <c>Speed</c>
+            </r>
+            <r>
+              <c>Con.</c>
+              <c>Control</c>
+            </r>
+            <r>
+              <c>Displact.</c>
+              <c><![CDATA[Displacement ]]></c>
+            </r>
+            <r>
+              <c><![CDATA[Meas ]]></c>
+              <c>Measurement</c>
+            </r>
+            <r>
+              <c>Meas.</c>
+              <c>Measurement</c>
+            </r>
+            <r>
+              <c><![CDATA[Elec. ]]></c>
+              <c>Electrical</c>
+            </r>
+            <r>
+              <c>Gener.</c>
+              <c>Generator</c>
+            </r>
+            <r>
+              <c><![CDATA[Instrum ]]></c>
+              <c><![CDATA[Instrumentation  ]]></c>
+            </r>
+            <r>
+              <c>Anal.</c>
+              <c>Analyser</c>
+            </r>
+            <r>
+              <c>Eq.</c>
+              <c>Equipment</c>
+            </r>
+            <r>
+              <c>Centr.</c>
+              <c>Centrifugal</c>
+            </r>
+            <r>
+              <c>Recipr.</c>
+              <c><![CDATA[Reciprocating ]]></c>
+            </r>
+            <r>
+              <c>Instrument.</c>
+              <c><![CDATA[Instrumentation  ]]></c>
+            </r>
+            <r>
+              <c>Radioact.</c>
+              <c>Radioactive</c>
+            </r>
+            <r>
+              <c>Sw.</c>
+              <c>Switch</c>
+            </r>
+            <r>
+              <c>Driv.</c>
+              <c>Drive</c>
+            </r>
+            <r>
+              <c>Var.</c>
+              <c>Variable</c>
+            </r>
+            <r>
+              <c>Spectr.</c>
+              <c>Spectrometer</c>
+            </r>
+            <r>
+              <c>Temperat.</c>
+              <c>Temperature</c>
+            </r>
+            <r>
+              <c>Tot.</c>
+              <c>Total</c>
+            </r>
+            <r>
+              <c>Vibr.</c>
+              <c>Vibration</c>
+            </r>
+            <r>
+              <c>Funct.</c>
+              <c>Function</c>
+            </r>
+            <r>
+              <c>Analys.</c>
+              <c>Analyser</c>
+            </r>
+            <r>
+              <c>Magn. Reson.</c>
+              <c>Magnetic Resonance</c>
+            </r>
+            <r>
+              <c>Met.</c>
+              <c>Meter</c>
+            </r>
+            <r>
+              <c>El.</c>
+              <c>Electrical</c>
+            </r>
+            <r>
+              <c>Mechanic.</c>
+              <c>Mechanical</c>
+            </r>
+            <r>
+              <c>Syst.</c>
+              <c>System</c>
+            </r>
+            <r>
+              <c>Temp.</c>
+              <c>Temperature</c>
+            </r>
+            <r>
+              <c>Detect.</c>
+              <c>Detector</c>
+            </r>
+            <r>
+              <c>Person.</c>
+              <c>Personal</c>
+            </r>
+            <r>
+              <c>Ultrason.</c>
+              <c>Ultrasonic</c>
+            </r>
+            <r>
+              <c>Chromatogr.</c>
+              <c><![CDATA[Chromatograph ]]></c>
+            </r>
+            <r>
+              <c>Protect.</c>
+              <c>Protection</c>
+            </r>
+            <r>
+              <c>Inorgan.</c>
+              <c>Inorganic</c>
+            </r>
+            <r>
+              <c>Carb.</c>
+              <c>Carbon</c>
+            </r>
+            <r>
+              <c>Fluoresc.</c>
+              <c>fluorescence</c>
+            </r>
+            <r>
+              <c>Tubesh.</c>
+              <c>Tubeshell</c>
+            </r>
+            <r>
+              <c>Async.</c>
+              <c>Asynchronous</c>
+            </r>
+            <r>
+              <c>Transportab.</c>
+              <c>Transportable</c>
+            </r>
+            <r>
+              <c>Rot.</c>
+              <c>Rotating</c>
+            </r>
+            <r>
+              <c>CNTRL</c>
+              <c>Control</c>
+            </r>
+            <r>
+              <c><![CDATA[ PAN ]]></c>
+              <c>Panel</c>
+            </r>
+            <r>
+              <c>DETR</c>
+              <c>Detector</c>
+            </r>
+            <r>
+              <c>D/P</c>
+              <c>Differential Pressure</c>
+            </r>
+            <r>
+              <c><![CDATA[Func ]]></c>
+              <c>Function</c>
+            </r>
+            <r>
+              <c>FB</c>
+              <c><![CDATA[Field Bus ]]></c>
+            </r>
+            <r>
+              <c><![CDATA[amb ]]></c>
+              <c><![CDATA[ambient ]]></c>
+            </r>
+            <r>
+              <c><![CDATA[temp ]]></c>
+              <c><![CDATA[Temperature ]]></c>
+            </r>
+            <r>
+              <c>Transm.</c>
+              <c>Transmitter</c>
+            </r>
+            <r>
+              <c><![CDATA[press ]]></c>
+              <c><![CDATA[Pressure ]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="342" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Abbreviation" selected="True" rename="abbreviation_codes" />
+            <SelectField field="Full" selected="True" rename="abbreviated_phrases" />
+            <SelectField field="Type" selected="True" rename="referenced_object_type" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="uuids" selected="True" />
+            <SelectField field="abbreviation_codes" selected="True" />
+            <SelectField field="abbreviated_phrases" selected="True" />
+            <SelectField field="referenced_object_type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="702" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Please Select Fields To Sum">&lt;Field field="abbreviation_codes"/&gt;</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CReW_OnlyUnique.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>c_abbreviations</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2cbb33af-0fb5-4904-9e93-1856ba4963aa" />
+      <Telemetry>
+        <PreviousWorkflowId value="c5a166bb-bf19-460d-b591-1f9261e0d24a" />
+        <OriginWorkflowId value="c5a166bb-bf19-460d-b591-1f9261e0d24a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

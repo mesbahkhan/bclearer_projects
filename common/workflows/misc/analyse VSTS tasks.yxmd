@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DT-Data-bCLEARer -DevOps backlog analysis.xlsx
+Query=`DT-Data-bCLEARer - backlog ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Work Item Type" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Theme" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Epic" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Feature" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="PBI" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Task" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_WString" />
+            <Field name="Sub-Tasks" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Tags" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Assigned To" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Target Date" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="ID" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="Double" />
+            <Field name="Priority" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="Double" />
+            <Field name="F14" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="Double" />
+            <Field name="Site Specific" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="bCLEARer Stage" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Object Group" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Object" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Site" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="System" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Run" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="L2 Task Type" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="L1\L2 Task Type" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="L3 Task Type" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Cause Inference" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="pseudocode example" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+            <Field name="Automation" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\APD\Asset\bCLEARer\DT-Data-bCLEARer -DevOps backlog analysis.xlsx|||`DT-Data-bCLEARer - backlog full$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="246" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="L3 Task Type" action="GroupBy" rename="L3 Task Type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>L3 Task Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-01-10 16:35:24</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>\</Operand>
+              <StartDate>2022-01-10 16:35:24</StartDate>
+              <EndDate>2022-01-10 16:35:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([L3 Task Type],"\")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="654" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>L3 Task Type</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="\" />
+          <NumFields value="6" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="1" action="GroupBy" rename="1" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="786" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="1" action="GroupBy" rename="1" />
+            <SummarizeField field="2" action="GroupBy" rename="2" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([L3 Task Type],&quot;/&quot;,&quot;\&quot;)&#xA;" field="L3 Task Type" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[L3 Task Type = Replace([L3 Task Type],"/","\")
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="798" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="1" action="GroupBy" rename="1" />
+            <SummarizeField field="2" action="GroupBy" rename="2" />
+            <SummarizeField field="3" action="GroupBy" rename="3" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="162" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>L3 Task Type</Field>
+          <Delimeters value=";" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="558" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"L3 Task Type"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="906" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="3" action="GroupBy" rename="3" />
+            <SummarizeField field="2" action="Concat" rename="Concat_2">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="1098" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Please Select Fields To Sum">&lt;Field field="3"/&gt;</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CReW_OnlyUnique.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="918" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Please Select Fields To Sum">&lt;Field field="2"/&gt;</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CReW_OnlyUnique.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1002" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>3</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-01-10 16:57:56</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-01-10 16:57:56</StartDate>
+              <EndDate>2022-01-10 16:57:56</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([3])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="10" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>analyse VSTS tasks</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7c8405d7-eeca-4a11-a36d-b49837415cbf" />
+      <Telemetry>
+        <PreviousWorkflowId value="9ca9b477-ef38-4aa0-a73c-1abb80d1125e" />
+        <OriginWorkflowId value="9ca9b477-ef38-4aa0-a73c-1abb80d1125e" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
