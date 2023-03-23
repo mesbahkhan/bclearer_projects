@@ -1,43 +1,9 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2022.1">
   <Nodes>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="78" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`</File>
-          <FormatSpecificOptions>
-            <FirstRowData>True</FirstRowData>
-            <ImportLine>1</ImportLine>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>cfi-20210507-current.xlsx
-Query=`ESXXXX$`</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="F1" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F2" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F3" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F4" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F5" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="990" y="630" />
+        <Position x="1830" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -51,6 +17,10 @@ Query=`ESXXXX$`</DefaultAnnotationText>
             <SelectField field="cfi_category_labels" selected="True" />
             <SelectField field="cfi_category_code_patterns" selected="True" />
             <SelectField field="RecordID" selected="False" />
+            <SelectField field="FullPath" selected="False" />
+            <SelectField field="F6" selected="False" />
+            <SelectField field="F7" selected="False" />
+            <SelectField field="F8" selected="False" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -64,7 +34,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="918" y="630" />
+        <Position x="1758" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +53,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="474" y="390" />
+        <Position x="1410" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,29 +76,9 @@ Query=`ESXXXX$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="11">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="294" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FieldName>RecordID</FieldName>
-          <StartValue>1</StartValue>
-          <FieldType>Int32</FieldType>
-          <FieldSize>6</FieldSize>
-          <Position>0</Position>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
-    </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="378" y="138" />
+        <Position x="1158" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +93,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
               <PeriodType>
               </PeriodType>
               <PeriodCount>0</PeriodCount>
-              <Operand>1</Operand>
+              <Operand>0</Operand>
               <StartDate>2023-03-11 21:29:55</StartDate>
               <EndDate>2023-03-11 21:29:55</EndDate>
             </Operands>
@@ -151,7 +101,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>[RecordID] = 1</DefaultAnnotationText>
+          <DefaultAnnotationText>[RecordID] = 0</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -159,7 +109,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="930" y="126" />
+        <Position x="1770" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -173,6 +123,11 @@ Query=`ESXXXX$`</DefaultAnnotationText>
             <SelectField field="F3" selected="True" rename="cfi_category_descriptions" />
             <SelectField field="F4" selected="True" rename="cfi_category_code_patterns" />
             <SelectField field="F5" selected="True" rename="cfi_category_code_labels" />
+            <SelectField field="FullPath" selected="True" />
+            <SelectField field="RecordID2" selected="True" />
+            <SelectField field="F6" selected="True" />
+            <SelectField field="F7" selected="True" />
+            <SelectField field="F8" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -186,7 +141,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="186" y="150" />
+        <Position x="1026" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -203,7 +158,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="618" y="498" />
+        <Position x="1506" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -232,7 +187,7 @@ endif</Expression>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="762" y="498" />
+        <Position x="1602" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -264,20 +219,24 @@ endif</Expression>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="978" y="366" />
+        <Position x="1818" y="534" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="True" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="FullPath" selected="True" />
+            <SelectField field="RecordID" selected="True" />
             <SelectField field="uuids" selected="True" />
             <SelectField field="cfi_category_code_attribute_places" selected="True" rename="cfi_category_names" />
             <SelectField field="cfi_category_code_component_code_descriptions" selected="True" />
-            <SelectField field="RecordID" selected="False" />
             <SelectField field="cfi_category_code_component_codes" selected="False" />
             <SelectField field="cfi_category_code_patterns" selected="False" />
             <SelectField field="cfi_category_labels" selected="False" />
+            <SelectField field="F6" selected="False" />
+            <SelectField field="F7" selected="False" />
+            <SelectField field="F8" selected="False" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -291,7 +250,7 @@ endif</Expression>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="882" y="366" />
+        <Position x="1722" y="534" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -310,7 +269,7 @@ endif</Expression>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="834" y="126" />
+        <Position x="1674" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -327,81 +286,25 @@ endif</Expression>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="23">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-        <Position x="1098" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <JoinByRecPos value="True" />
-          <OutputJoinOnly value="False" />
-          <SelectConfiguration>
-            <Configuration outputConnection="Output">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Input_#2_uuids" selected="True" rename="Input_#2_uuids" />
-                <SelectField field="Input_#2_cfi_category_names" selected="True" rename="Input_#2_cfi_category_names" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
-    </Node>
-    <Node ToolID="24">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="1290" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UpdateField value="True" />
-          <UpdateField_Name>cfi_category_super_type_uuids</UpdateField_Name>
-          <CreateField_Name>New Field</CreateField_Name>
-          <CreateField_Type>Int32</CreateField_Type>
-          <CreateField_Size>4</CreateField_Size>
-          <OtherRows>Empty</OtherRows>
-          <NumRows value="1" />
-          <Expression>if IsNull([cfi_category_super_type_uuids])then
-[Row-1:cfi_category_super_type_uuids]
-else
-[cfi_category_super_type_uuids]
-endif</Expression>
-          <GroupByFields />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>if IsNull([cfi_category_super_type_uuids])then
-[Row-1:cfi_cat...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
-    </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1194" y="246" />
+        <Position x="2298" y="450" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="True" />
           <CommaDecimal value="False" />
           <SelectFields>
-            <SelectField field="uuids" selected="True" rename="cfi_category_uuids" />
-            <SelectField field="Input_#2_uuids" selected="True" rename="cfi_category_super_type_uuids" />
-            <SelectField field="Input_#2_cfi_category_names" selected="False" />
-            <SelectField field="cfi_category_full_codes" selected="False" />
-            <SelectField field="cfi_category_descriptions" selected="False" />
-            <SelectField field="cfi_category_code_patterns" selected="False" />
-            <SelectField field="cfi_category_code_labels" selected="False" />
+            <SelectField field="uuids" selected="False" rename="cfi_category_uuids" />
             <SelectField field="cfi_category_names" selected="False" />
             <SelectField field="cfi_category_code_component_code_descriptions" selected="False" />
+            <SelectField field="FullPath" selected="False" />
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="cfi_category_uuids" selected="True" />
+            <SelectField field="cfi_category_super_type_uuids" selected="True" />
+            <SelectField field="cfi_category_super_type_names" selected="False" />
+            <SelectField field="cfi_category_super_type_descriptions" selected="False" />
+            <SelectField field="cfi_category_super_type_codes" selected="False" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -415,7 +318,7 @@ endif</Expression>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1098" y="510" />
+        <Position x="1938" y="678" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -452,15 +355,188 @@ endif</Expression>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="78" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Folder Browse (11)">D:\S\bclearer_projects\financial_instruments\01_collect</Value>
+          <Value name="Check Box (13)">False</Value>
+          <Value name="Check Box (24)">False</Value>
+          <Value name="Numeric Up Down (44)">1</Value>
+          <Value name="Check Box (26)">True</Value>
+          <Value name="Text Box (16)" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name><![CDATA[   Wildcard XLSX Input (35)]]></Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Non-Matched">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F4" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F5" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F6" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F7" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F8" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="bclearer_multiple_excel_sheet_merger.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1338" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>FullPath</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-11 23:07:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Categor</Operand>
+              <StartDate>2023-03-11 23:07:42</StartDate>
+              <EndDate>2023-03-11 23:07:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([FullPath],"Categor")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1530" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>FullPath</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-11 23:07:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Categories</Operand>
+              <StartDate>2023-03-11 23:07:42</StartDate>
+              <EndDate>2023-03-11 23:07:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([FullPath],"Categories")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1626" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>RecordID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-11 23:09:48</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2023-03-11 23:09:48</StartDate>
+              <EndDate>2023-03-11 23:09:48</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] &gt; 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2046" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_FullPath" selected="True" input="Left_" />
+                <SelectField field="Right_RecordID" selected="True" input="Right_" />
+                <SelectField field="Right_uuids" selected="True" rename="cfi_category_uuids" input="Right_" />
+                <SelectField field="Right_cfi_category_names" selected="True" input="Right_" />
+                <SelectField field="Right_cfi_category_code_component_code_descriptions" selected="True" input="Right_" />
+                <SelectField field="Left_uuids" selected="True" rename="cfi_category_super_type_uuids" input="Left_" />
+                <SelectField field="Left_cfi_category_full_codes" selected="True" rename="cfi_category_super_type_codes" input="Left_" />
+                <SelectField field="Left_cfi_category_names" selected="True" rename="cfi_category_super_type_names" input="Left_" />
+                <SelectField field="Left_cfi_category_descriptions" selected="True" rename="cfi_category_super_type_descriptions" input="Left_" />
+                <SelectField field="Right_FullPath" selected="False" input="Right_" />
+                <SelectField field="Left_cfi_category_code_patterns" selected="False" input="Left_" />
+                <SelectField field="Left_cfi_category_code_labels" selected="False" input="Left_" />
+                <SelectField field="Left_F6" selected="False" input="Left_" />
+                <SelectField field="Left_F7" selected="False" input="Left_" />
+                <SelectField field="Left_F8" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1397" y="77" width="167" height="699" />
+        <Position x="2561" y="221" width="167" height="699" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Container 6</Caption>
           <Style TextColor="#314c4a" FillColor="#008000" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
+          <Disabled value="True" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -472,7 +548,7 @@ endif</Expression>
       <ChildNodes>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1422" y="366" />
+            <Position x="2586" y="510" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -498,7 +574,7 @@ endif</Expression>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1422" y="126" />
+            <Position x="2586" y="270" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -524,7 +600,7 @@ endif</Expression>
         </Node>
         <Node ToolID="26">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1422" y="246" />
+            <Position x="2586" y="390" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -550,7 +626,7 @@ endif</Expression>
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1434" y="510" />
+            <Position x="2598" y="654" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -576,7 +652,7 @@ endif</Expression>
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1434" y="630" />
+            <Position x="2598" y="774" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -602,12 +678,53 @@ endif</Expression>
         </Node>
       </ChildNodes>
     </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="270" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">D:\S\bclearer_projects\financial_instruments\02_load\data\uuidified_cfi_categories.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_cfi_categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="UuidCreate()" field="uuids" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[uuids = UuidCreate()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
   </Nodes>
   <Connections>
-    <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="14" Connection="Input" />
-    </Connection>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="5" Connection="Input" />
@@ -629,32 +746,28 @@ endif</Expression>
       <Destination ToolID="15" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="11" Connection="Output" />
-      <Destination ToolID="12" Connection="Input" />
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="False" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="12" Connection="True" />
-      <Destination ToolID="21" Connection="Input" />
+      <Destination ToolID="40" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
       <Destination ToolID="19" Connection="Input" />
     </Connection>
-    <Connection name="#2">
+    <Connection>
       <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="23" Connection="Input" />
+      <Destination ToolID="43" Connection="Left" />
     </Connection>
-    <Connection name="#1">
+    <Connection>
       <Origin ToolID="17" Connection="Output" />
-      <Destination ToolID="23" Connection="Input" />
+      <Destination ToolID="43" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="True" />
-      <Destination ToolID="11" Connection="Input" />
+      <Destination ToolID="12" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="15" Connection="Output" />
@@ -681,20 +794,36 @@ endif</Expression>
       <Destination ToolID="13" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="23" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="24" Connection="Output" />
-      <Destination ToolID="26" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
+      <Destination ToolID="26" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="30" Connection="Join" />
       <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Non-Matched" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="False" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="False" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -717,7 +846,7 @@ endif</Expression>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>l_cfi_equity_categories</Name>
+      <Name>e_cfi_categories_extract_sst_structure</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -732,9 +861,9 @@ endif</Expression>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="2fbe928b-edc5-4b69-8590-9265ce18d7c3" />
+      <WorkflowId value="59ffecfc-7f75-46f6-88e0-fc1ac755af5e" />
       <Telemetry>
-        <PreviousWorkflowId value="afff83f5-2e0b-4ea4-8e6c-249a3de6ced0" />
+        <PreviousWorkflowId value="9e4c480d-e81a-494e-bd2e-1960ccb0196b" />
         <OriginWorkflowId value="afff83f5-2e0b-4ea4-8e6c-249a3de6ced0" />
       </Telemetry>
     </MetaInfo>

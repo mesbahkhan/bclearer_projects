@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\S\bclearer_projects\legal_entities\02_load\data\uuidified_cfi_debt_instrument_categories.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_cfi_debt_instrument_categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="cfi_debt_instrument_cateogy_codes" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_debt_instrument_cateogy_names" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_debt_instrument_cateogy_descrtiptions" size="1116" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_WString" />
+            <Field name="cfi_debt_instrument_cateogy_code_patterns" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_debt_instrument_cateogy_rdfs_lables" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_debt_instrument_cateogy_versions" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>e_cfi_debt_instruments_to_categories</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3c15a236-c100-4412-96e8-fa2f1a236bf4" />
+      <Telemetry>
+        <PreviousWorkflowId value="6643becc-67d0-4b1c-a16d-9cc29eccf639" />
+        <OriginWorkflowId value="6643becc-67d0-4b1c-a16d-9cc29eccf639" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

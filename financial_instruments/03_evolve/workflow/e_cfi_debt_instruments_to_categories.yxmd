@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="198" y="162" />
+        <Position x="102" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\S\bclearer_projects\legal_entities\02_load\data\uuidified_cfi_debt_instrument_categories.yxdb</File>
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\S\bclearer_projects\financial_instruments\02_load\data\uuidified_cfi_debt_instrument_categories.yxdb</File>
           <FormatSpecificOptions />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -22,19 +22,337 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="uuids" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
-            <Field name="cfi_debt_instrument_cateogy_codes" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
-            <Field name="cfi_debt_instrument_cateogy_names" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
-            <Field name="cfi_debt_instrument_cateogy_descrtiptions" size="1116" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_WString" />
-            <Field name="cfi_debt_instrument_cateogy_code_patterns" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
-            <Field name="cfi_debt_instrument_cateogy_rdfs_lables" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
-            <Field name="cfi_debt_instrument_cateogy_versions" size="255" source="File: D:\S\bclearer_projects\legal_entities\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_category_codes" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_category_names" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_category_descriptions" size="1116" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_WString" />
+            <Field name="cfi_category_code_patterns" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_category_reds_lables" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
+            <Field name="cfi_category_versions" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Debt_instruments_Category$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\S\bclearer_projects\financial_instruments\02_load\data\uuidified_cfi_equity_categories.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_cfi_equity_categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="cfi_category_codes" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+            <Field name="cfi_category_names" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+            <Field name="cfi_category_descriptions" size="547" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+            <Field name="cfi_category_code_patterns" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+            <Field name="cfi_category_lables" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+            <Field name="cfi_category_versions" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Equities_Category$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\S\bclearer_projects\financial_instruments\02_load\data\uuidified_cfi_entitlement_right_categories.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_cfi_entitlement_right_categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="cfi_category_codes" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+            <Field name="cfi_category_names" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+            <Field name="cfi_category_descriptions" size="635" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+            <Field name="cfi_category_code_patterns" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+            <Field name="cfi_category_rdfs_labels" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+            <Field name="cfi_category_versions" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Entitlement_rights_Category$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="702" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;debt_instruments&quot;" field="cfi_category_types" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[cfi_category_types = "debt_instruments"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;equity&quot;" field="cfi_category_types" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[cfi_category_types = "equity"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;entitlement_rights&quot;" field="cfi_category_types" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[cfi_category_types = "entitlement_rights"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="cfi_category_reds_lables" selected="True" rename="cfi_category_labels" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="cfi_category_lables" selected="True" rename="cfi_category_labels" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="cfi_category_rdfs_labels" selected="True" rename="cfi_category_labels" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>D:\S\bclearer_projects\financial_instruments\02_load\data\uuidified_cfi_financial_instrument_categories.yxdb</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uuidified_cfi_financial_instrument_categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="uuids" size="1073741823" source="Formula: UuidCreate()" type="V_WString" />
+            <Field name="cfi_category_codes" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Categories$`" type="V_String" />
+            <Field name="cfi_category_names" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Categories$`" type="V_String" />
+            <Field name="cfi_category_descriptions" size="476" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Categories$`" type="V_String" />
+            <Field name="cfi_category_code_patterns" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Categories$`" type="V_String" />
+            <Field name="cfi_category_lables" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`Categories$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="cfi_category_lables" selected="True" rename="cfi_category_labels" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;financial_instruments&quot;" field="cfi_category_types" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[cfi_category_types = "financial_instruments"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
   </Nodes>
-  <Connections />
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />

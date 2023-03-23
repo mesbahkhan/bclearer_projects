@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`</File>
           <FormatSpecificOptions>
             <FirstRowData>True</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -17,7 +17,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>cfi-20210507-current.xlsx
-Query=`ESXXXX$`</DefaultAnnotationText>
+Query=`EPXXXX$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -25,11 +25,11 @@ Query=`ESXXXX$`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="F1" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F2" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F3" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F4" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
-            <Field name="F5" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`ESXXXX$`" type="V_String" />
+            <Field name="F1" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`" type="V_String" />
+            <Field name="F3" size="282" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\S\bclearer_projects\financial_instruments\01_collect\cfi-20210507-current.xlsx|||`EPXXXX$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -83,7 +83,7 @@ Query=`ESXXXX$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="474" y="390" />
+        <Position x="486" y="498" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -460,7 +460,7 @@ endif</Expression>
         <Configuration>
           <Caption>Container 6</Caption>
           <Style TextColor="#314c4a" FillColor="#008000" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
+          <Disabled value="True" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -717,7 +717,7 @@ endif</Expression>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>l_cfi_equity_categories</Name>
+      <Name>l_cfi_attribute_place_categories</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -732,9 +732,9 @@ endif</Expression>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="2fbe928b-edc5-4b69-8590-9265ce18d7c3" />
+      <WorkflowId value="44d2977a-e485-49e2-a514-8cea19b6b2f1" />
       <Telemetry>
-        <PreviousWorkflowId value="afff83f5-2e0b-4ea4-8e6c-249a3de6ced0" />
+        <PreviousWorkflowId value="2fbe928b-edc5-4b69-8590-9265ce18d7c3" />
         <OriginWorkflowId value="afff83f5-2e0b-4ea4-8e6c-249a3de6ced0" />
       </Telemetry>
     </MetaInfo>
