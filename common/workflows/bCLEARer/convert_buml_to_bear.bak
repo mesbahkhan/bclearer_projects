@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="36">C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object</File>
+          <FormatSpecificOptions>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite
+Query=t_object</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Object_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Object_Type" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Diagram_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Name" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Alias" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Author" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Version" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Note" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Package_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Stereotype" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="NType" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Complexity" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Effort" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Style" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Backcolor" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="BorderStyle" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="BorderWidth" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Fontcolor" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="Bordercolor" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="CreatedDate" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="ModifiedDate" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Status" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Abstract" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Tagged" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="PDATA1" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="PDATA2" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="PDATA3" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="PDATA4" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="PDATA5" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Concurrency" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Visibility" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Persistence" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Cardinality" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="GenType" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="GenFile" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Header1" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Header2" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Phase" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Scope" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="GenOption" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="GenLinks" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Classifier" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="ea_guid" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="ParentID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="RunState" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Classifier_guid" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="TPos" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="IsRoot" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="IsLeaf" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="IsSpec" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="IsActive" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="StateFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="PackageFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="Multiplicity" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="StyleEx" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="ActionFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="EventFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="36">C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector</File>
+          <FormatSpecificOptions>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite
+Query=t_connector</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Connector_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="Name" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Connector_Type" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SubType" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceCard" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceAccess" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceElement" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestCard" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestAccess" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestElement" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceRole" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceRoleType" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceRoleNote" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceContainment" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceIsAggregate" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="SourceIsOrdered" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="SourceQualifier" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestRole" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestRoleType" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestRoleNote" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestContainment" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestIsAggregate" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="DestIsOrdered" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="DestQualifier" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Start_Object_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="End_Object_ID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="Top_Start_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Top_Mid_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Top_End_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Btm_Start_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Btm_Mid_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Btm_End_Label" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Start_Edge" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="End_Edge" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="PtStartX" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="PtStartY" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="PtEndX" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="PtEndY" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="SeqNo" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="HeadStyle" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="LineStyle" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="RouteStyle" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="IsBold" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="LineColor" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="Stereotype" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="VirtualInheritance" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="LinkAccess" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="PDATA1" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="PDATA2" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="PDATA3" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="PDATA4" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="PDATA5" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DiagramID" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="ea_guid" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceConstraint" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestConstraint" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceIsNavigable" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="DestIsNavigable" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="IsRoot" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="IsLeaf" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="IsSpec" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="SourceChangeable" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestChangeable" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceTS" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestTS" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="StateFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="ActionFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="IsSignal" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="IsStimulus" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="DispatchAction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="Target2" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="StyleEx" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceStereotype" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestStereotype" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="SourceStyle" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="DestStyle" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="EventFlags" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="738" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="object_ea_object_ids" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="relation_ea_start_object_ids" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_relation_ea_guids" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_connector_ids" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_names" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_stereotypes" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_direction" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_notes" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_connector_types" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_start_object_ids" selected="True" input="Right_" />
+                <SelectField field="Left_object_ea_guids" selected="True" rename="source_object_ea_guids" input="Left_" />
+                <SelectField field="Right_relation_ea_end_object_ids" selected="True" input="Right_" />
+                <SelectField field="Left_object_ea_object_ids" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_types" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_names" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_notes" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_stereotypes" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="source_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="846" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="object_ea_object_ids" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="relation_ea_end_object_ids" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_relation_ea_guids" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_connector_ids" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_names" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_notes" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_stereotypes" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_direction" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_connector_types" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_start_object_ids" selected="True" input="Right_" />
+                <SelectField field="Right_source_object_ea_guids" selected="True" input="Right_" />
+                <SelectField field="Right_relation_ea_end_object_ids" selected="True" input="Right_" />
+                <SelectField field="Left_object_ea_guids" selected="True" rename="target_object_ea_guids" input="Left_" />
+                <SelectField field="Left_object_ea_object_ids" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_types" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_names" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_notes" selected="False" input="Left_" />
+                <SelectField field="Left_object_ea_stereotypes" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="source_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="target_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="source_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="318" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="file_path" />
+          </Fields>
+          <Data>
+            <r>
+              <c>C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\rheinlad_tag_model</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="file_path" size="2147483647" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1014" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if !IsEmpty([relation_ea_stereotypes]) then&#xA;[relation_ea_stereotypes]&#xA;else&#xA;    if([relation_ea_connector_types]=&quot;Generalization&quot;)then&#xA;    &quot;super-sub-types&quot;&#xA;     else&#xA;    &quot;types-instances&quot;&#xA;    endif&#xA;endif&#xA;" field="relation_stereotypes" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>relation_stereotypes = if !IsEmpty([relation_ea_stereotypes]) then
+[relation_ea_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="source_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="target_object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_stereotypes" size="1073741823" source="Formula: if !IsEmpty([relation_ea_stereotypes]) then&#xA;[relation_ea_stereotypes]&#xA;else&#xA;    if([relation_ea_connector_types]=&quot;Generalization&quot;)then&#xA;    &quot;super-sub-types&quot;&#xA;     else&#xA;    &quot;types-instances&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="1302" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="BatchMacroGroupBy" />
+          <Value name="Input.Objects"><![CDATA[object_uuids=object_ea_guids
+object_main_names=object_ea_names
+object_descriptions=object_ea_notes
+object_stereoptypes=object_stereotypes
+]]></Value>
+          <Value name="Input.Relations"><![CDATA[relation_stereotypes=relation_stereotypes
+relation_descriptions=relation_ea_names
+target_object_uuids=target_object_ea_guids
+source_object_uuids=source_object_ea_guids
+]]></Value>
+          <Value name="ControlParams"><![CDATA[Control Parameter (11)=file_path
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>publish_to_power_designer (5)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="object categories invalid">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_main_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_descriptions" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_stereoptypes" size="1073741823" source="Formula: if !IsEmpty([object_ea_stereotypes]) then&#xA;[object_ea_stereotypes]&#xA;else&#xA;    if([object_ea_types]=&quot;Class&quot;)then&#xA;    &quot;Types&quot;&#xA;     else&#xA;    &quot;&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="relation categories invalid">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_descriptions" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="source_object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="target_object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_stereotypes" size="1073741823" source="Formula: if !IsEmpty([relation_ea_stereotypes]) then&#xA;[relation_ea_stereotypes]&#xA;else&#xA;    if([relation_ea_connector_types]=&quot;Generalization&quot;)then&#xA;    &quot;super-sub-types&quot;&#xA;     else&#xA;    &quot;types-instances&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Missing Sources">
+          <RecordInfo>
+            <Field name="relation_descriptions" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="source_object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="target_object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="relation_stereotypes" size="1073741823" source="Formula: if !IsEmpty([relation_ea_stereotypes]) then&#xA;[relation_ea_stereotypes]&#xA;else&#xA;    if([Connector_Type]=&quot;Generalization&quot;)then&#xA;    &quot;super-sub-types&quot;&#xA;     else&#xA;    &quot;types-instances&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Missing Targets">
+          <RecordInfo>
+            <Field name="relation_descriptions" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_stereotypes" size="1073741823" source="Formula: if !IsEmpty([relation_ea_stereotypes]) then&#xA;[relation_ea_stereotypes]&#xA;else&#xA;    if([Connector_Type]=&quot;Generalization&quot;)then&#xA;    &quot;super-sub-types&quot;&#xA;     else&#xA;    &quot;types-instances&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+            <Field name="target_object_uuids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="RelationSourceObjectUuids" size="1073741823" source="Formula: UpperCase(&#xA;   Replace (&#xA;     [object_uuids],&#xA;     &quot;-&quot;,&#xA;     &quot;_&quot;)&#xA;  )" type="V_WString" />
+            <Field name="SourceObjectNames" size="1073741823" source="Formula: [object_main_names]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="publish_to_power_designer.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Object_ID" selected="True" rename="object_ea_object_ids" />
+            <SelectField field="Object_Type" selected="True" rename="object_ea_types" />
+            <SelectField field="ea_guid" selected="True" rename="object_ea_guids" />
+            <SelectField field="Name" selected="True" rename="object_ea_names" />
+            <SelectField field="Note" selected="True" rename="object_ea_notes" />
+            <SelectField field="Stereotype" selected="True" rename="object_ea_stereotypes" />
+            <SelectField field="Diagram_ID" selected="False" />
+            <SelectField field="Alias" selected="False" />
+            <SelectField field="Author" selected="False" />
+            <SelectField field="Version" selected="False" />
+            <SelectField field="Package_ID" selected="False" />
+            <SelectField field="NType" selected="False" />
+            <SelectField field="Complexity" selected="False" />
+            <SelectField field="Effort" selected="False" />
+            <SelectField field="Style" selected="False" />
+            <SelectField field="Backcolor" selected="False" />
+            <SelectField field="BorderStyle" selected="False" />
+            <SelectField field="BorderWidth" selected="False" />
+            <SelectField field="Fontcolor" selected="False" />
+            <SelectField field="Bordercolor" selected="False" />
+            <SelectField field="CreatedDate" selected="False" />
+            <SelectField field="ModifiedDate" selected="False" />
+            <SelectField field="Status" selected="False" />
+            <SelectField field="Abstract" selected="False" />
+            <SelectField field="Tagged" selected="False" />
+            <SelectField field="PDATA1" selected="False" />
+            <SelectField field="PDATA2" selected="False" />
+            <SelectField field="PDATA3" selected="False" />
+            <SelectField field="PDATA4" selected="False" />
+            <SelectField field="PDATA5" selected="False" />
+            <SelectField field="Concurrency" selected="False" />
+            <SelectField field="Visibility" selected="False" />
+            <SelectField field="Persistence" selected="False" />
+            <SelectField field="Cardinality" selected="False" />
+            <SelectField field="GenType" selected="False" />
+            <SelectField field="GenFile" selected="False" />
+            <SelectField field="Header1" selected="False" />
+            <SelectField field="Header2" selected="False" />
+            <SelectField field="Phase" selected="False" />
+            <SelectField field="Scope" selected="False" />
+            <SelectField field="GenOption" selected="False" />
+            <SelectField field="GenLinks" selected="False" />
+            <SelectField field="Classifier" selected="False" />
+            <SelectField field="ParentID" selected="False" />
+            <SelectField field="RunState" selected="False" />
+            <SelectField field="Classifier_guid" selected="False" />
+            <SelectField field="TPos" selected="False" />
+            <SelectField field="IsRoot" selected="False" />
+            <SelectField field="IsLeaf" selected="False" />
+            <SelectField field="IsSpec" selected="False" />
+            <SelectField field="IsActive" selected="False" />
+            <SelectField field="StateFlags" selected="False" />
+            <SelectField field="PackageFlags" selected="False" />
+            <SelectField field="Multiplicity" selected="False" />
+            <SelectField field="StyleEx" selected="False" />
+            <SelectField field="ActionFlags" selected="False" />
+            <SelectField field="EventFlags" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if !IsEmpty([object_ea_stereotypes]) then&#xA;[object_ea_stereotypes]&#xA;else&#xA;    if([object_ea_types]=&quot;Class&quot;)then&#xA;    &quot;Types&quot;&#xA;     else&#xA;    &quot;&quot;&#xA;    endif&#xA;endif&#xA;" field="object_stereotypes" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>object_stereotypes = if !IsEmpty([object_ea_stereotypes]) then
+[object_ea_stereo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_stereotypes" size="1073741823" source="Formula: if !IsEmpty([object_ea_stereotypes]) then&#xA;[object_ea_stereotypes]&#xA;else&#xA;    if([object_ea_types]=&quot;Class&quot;)then&#xA;    &quot;Types&quot;&#xA;     else&#xA;    &quot;&quot;&#xA;    endif&#xA;endif&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ea_guid" selected="True" rename="relation_ea_guids" />
+            <SelectField field="Connector_ID" selected="True" rename="relation_ea_connector_ids" />
+            <SelectField field="Name" selected="True" rename="relation_ea_names" />
+            <SelectField field="Stereotype" selected="True" rename="relation_ea_stereotypes" />
+            <SelectField field="Direction" selected="True" rename="relation_ea_direction" />
+            <SelectField field="Notes" selected="True" rename="relation_ea_notes" />
+            <SelectField field="Connector_Type" selected="True" rename="relation_ea_connector_types" />
+            <SelectField field="Start_Object_ID" selected="True" rename="relation_ea_start_object_ids" />
+            <SelectField field="End_Object_ID" selected="True" rename="relation_ea_end_object_ids" />
+            <SelectField field="SubType" selected="False" />
+            <SelectField field="SourceCard" selected="False" />
+            <SelectField field="SourceAccess" selected="False" />
+            <SelectField field="SourceElement" selected="False" />
+            <SelectField field="DestCard" selected="False" />
+            <SelectField field="DestAccess" selected="False" />
+            <SelectField field="DestElement" selected="False" />
+            <SelectField field="SourceRole" selected="False" />
+            <SelectField field="SourceRoleType" selected="False" />
+            <SelectField field="SourceRoleNote" selected="False" />
+            <SelectField field="SourceContainment" selected="False" />
+            <SelectField field="SourceIsAggregate" selected="False" />
+            <SelectField field="SourceIsOrdered" selected="False" />
+            <SelectField field="SourceQualifier" selected="False" />
+            <SelectField field="DestRole" selected="False" />
+            <SelectField field="DestRoleType" selected="False" />
+            <SelectField field="DestRoleNote" selected="False" />
+            <SelectField field="DestContainment" selected="False" />
+            <SelectField field="DestIsAggregate" selected="False" />
+            <SelectField field="DestIsOrdered" selected="False" />
+            <SelectField field="DestQualifier" selected="False" />
+            <SelectField field="Top_Start_Label" selected="False" />
+            <SelectField field="Top_Mid_Label" selected="False" />
+            <SelectField field="Top_End_Label" selected="False" />
+            <SelectField field="Btm_Start_Label" selected="False" />
+            <SelectField field="Btm_Mid_Label" selected="False" />
+            <SelectField field="Btm_End_Label" selected="False" />
+            <SelectField field="Start_Edge" selected="False" />
+            <SelectField field="End_Edge" selected="False" />
+            <SelectField field="PtStartX" selected="False" />
+            <SelectField field="PtStartY" selected="False" />
+            <SelectField field="PtEndX" selected="False" />
+            <SelectField field="PtEndY" selected="False" />
+            <SelectField field="SeqNo" selected="False" />
+            <SelectField field="HeadStyle" selected="False" />
+            <SelectField field="LineStyle" selected="False" />
+            <SelectField field="RouteStyle" selected="False" />
+            <SelectField field="IsBold" selected="False" />
+            <SelectField field="LineColor" selected="False" />
+            <SelectField field="VirtualInheritance" selected="False" />
+            <SelectField field="LinkAccess" selected="False" />
+            <SelectField field="PDATA1" selected="False" />
+            <SelectField field="PDATA2" selected="False" />
+            <SelectField field="PDATA3" selected="False" />
+            <SelectField field="PDATA4" selected="False" />
+            <SelectField field="PDATA5" selected="False" />
+            <SelectField field="DiagramID" selected="False" />
+            <SelectField field="SourceConstraint" selected="False" />
+            <SelectField field="DestConstraint" selected="False" />
+            <SelectField field="SourceIsNavigable" selected="False" />
+            <SelectField field="DestIsNavigable" selected="False" />
+            <SelectField field="IsRoot" selected="False" />
+            <SelectField field="IsLeaf" selected="False" />
+            <SelectField field="IsSpec" selected="False" />
+            <SelectField field="SourceChangeable" selected="False" />
+            <SelectField field="DestChangeable" selected="False" />
+            <SelectField field="SourceTS" selected="False" />
+            <SelectField field="DestTS" selected="False" />
+            <SelectField field="StateFlags" selected="False" />
+            <SelectField field="ActionFlags" selected="False" />
+            <SelectField field="IsSignal" selected="False" />
+            <SelectField field="IsStimulus" selected="False" />
+            <SelectField field="DispatchAction" selected="False" />
+            <SelectField field="Target2" selected="False" />
+            <SelectField field="StyleEx" selected="False" />
+            <SelectField field="SourceStereotype" selected="False" />
+            <SelectField field="DestStereotype" selected="False" />
+            <SelectField field="SourceStyle" selected="False" />
+            <SelectField field="DestStyle" selected="False" />
+            <SelectField field="EventFlags" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="relation_ea_guids" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_direction" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_connector_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="V_WString" />
+            <Field name="relation_ea_start_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+            <Field name="relation_ea_end_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_connector" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="162" y="66" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (17)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="246" y="132" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="102" y="30" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (19)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="162" y="234" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="150" y="462" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace(&#xA;Replace([object_ea_guids], &quot;{&quot;, &quot;&quot;),&quot;}&quot;,&quot;&quot;)" field="object_ea_guids" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[object_ea_guids = Replace(
+Replace([object_ea_guids], "{", ""),"}","")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="object_ea_object_ids" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="Int64" />
+            <Field name="object_ea_types" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_guids" size="1073741823" source="Formula: Replace(&#xA;Replace([object_ea_guids], &quot;{&quot;, &quot;&quot;),&quot;}&quot;,&quot;&quot;)" type="V_WString" />
+            <Field name="object_ea_names" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_notes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+            <Field name="object_ea_stereotypes" size="1073741823" source="File: C:\Apps\S\bclearer_projects\bclearer_projects_alteryx\RDL\Rheinland\grammer\04-Assimilate\Data\tag_digital_twin_bg+model-tls-tag_formats - v0.20 20221111 JPr - Copy.sqlite|||t_object" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="25" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="25" Connection="Relations" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="25" Connection="Objects" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Question" />
+      <Destination ToolID="18" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Question" />
+      <Destination ToolID="20" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Question" />
+      <Destination ToolID="21" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="20" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Action" />
+      <Destination ToolID="3" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (19)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>convert_buml_to_bear</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a3f595b6-ddaf-47d6-9122-c72d48495d8a" />
+      <Telemetry>
+        <PreviousWorkflowId value="e7f54ee8-3331-415b-92b0-8beaa4f7ebb0" />
+        <OriginWorkflowId value="640c4877-3b3c-4e81-a900-9cc881f057a9" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="18" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>6/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="20" />
+              <Expression>[#1]+"|t_object"</Expression>
+              <Destination>1/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="21" />
+              <Expression>[#1]+"|t_connector"</Expression>
+              <Destination>3/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (16)</Name>
+          <ToolId value="16" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>target bear path prefix</Description>
+              <Name>Control Parameter (17)</Name>
+              <ToolId value="17" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>buml ea sqlite file path</Description>
+              <Name>Control Parameter (19)</Name>
+              <ToolId value="19" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (17)</Name>
+            <Description>target bear path prefix</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (19)</Name>
+            <Description>buml ea sqlite file path</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="25" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="azure_data_lake_output">
+        <Position x="414" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <isUserLoggedIn>true</isUserLoggedIn>
+          <IsDcmRequiredForUT>true</IsDcmRequiredForUT>
+          <adl_StorageVersion>Gen2</adl_StorageVersion>
+          <adl_AuthenticationType>SharedKey</adl_AuthenticationType>
+          <adl_Token>201000000D08C9DDF0115D1118C7A00C04FC297EB010000007FD17DA5524A4F42A4C5032847838B360400000008000000500057004400000003660000C00000001000000037E0A70E8D735F0AA52874DF4FEEB5D80000000004800000A00000001000000002DCE7C6A950CA01DB1AB2F45D25E55B080900000710385286E808D8848F94A8B1F32D6D7160AD1C9388399F19AA34EA9470DF133B86373B11E78F31EA9B092FAE642B81ACEE1D1DA2B6C84660445DFD5054AB108ACA7C415C8F6A29EE261CB3FFCA57EF057BBC492C860FCA645ABE8994FD1A3BDB1F3A99C0EDE1CE1B2DEC3E4A439AA6FE6933FD0491BEC46A0744551DCE5D5317BDA51050F29D2309308BA8572D052E0B542F872769F19BDBF56F3DF845F2731544867A712AB27C30E9D256786E130EB918EEA410FF4AAB4E3BD5396F7624E1E97E817344426F90920B3F1D8D231F747645C4AB198FD10B1C5982F46F600B3B6EFCA4B904E47C4C29D2ABD78F0A0FD01CB4D7868C97C43C31CA3E69E633D4D4DED5CDC6FDBFF2CA0421DA7FE5FA8F95093AEF90E7FDAC8802C662A517829F81CBF374BEFBC2B48B161357BB530BEA9B0D2E9DB289220B8D8746275E866CAD0212370E9BA8A8D9DE3CA731F6198F67B7C85601A1C4570C37253B09ACE723E287F4C2B14DADE64EC3A9DA96F0A641DD47BD15C2FDC913DD35736B5DBD3BFF1DE7F8A306DDF41F6612C7413DEC780571870767D06CF8E41D194F2ECD7E38FC7D34519360D807855650CE120B1DAE987F7C2203BCF42346D9B439A026D14E2145DCB298F756CBAD5139A3E260F4E9A0A633EF2CF14867A4ECA180E3DDCA3340252EDCD8D382531E07F0DF8CC8043DEA48783323D39F91F394AA5A2C3709C0E9992F8E54F2E2D563124E37312BFE942B62E678C38595044C631D2CC0B30438CB8E61F1F492B08A3988C1F808CF8B1B003753681EFCD1FCCECA23B062041F2F34981220F189738D58C5662660031069F8E8B25D4BC6627D0D10B0A1BF84A521F28C6DF8F5B989A96FFDF4B6AF74C324D0A20758FE354E64A5FC62EE04D5009C5F3174B4B5A364E999FA3614ADAAEFB9A254997E2E37A4102235F4813D14345E0201268306518F5C7F9A6CF95037B533A2297E075B57ABADEE97F245EE18C67B29AFDC033A22D73351760CC1E8512D0E1A87D0405E78C668B9164C5ACC3E64140CC2828E833AFA7F6706D02577F63C7A05C94C7BBFC0195EC9450776400C29BA526C5FC02F708F0EF42E4C764EDB1002186635AB1ECE1DFA673A72F0F25A761B6E57A71747DFC8E69A23D19FFDB31BB9972C7B7793E18FD8587FB4DE60A40CC20506EDAF2C022E750A39D2D96DDFDF873764A22C02B2DD9D9D47C6C9075BCEDF28E4573E651EB7D74083A83C39EC460443B5A054A5647FE07F496FD1B527F162E998ED1C784E64DA740C62EA00E61B862212E93CB0AA0B467D5AADD9D67DA774521CA8B37DCC3ADCC4667DFD26AC9DC90C765460967CFC25484ACEF71DCF8C5EAAE49943094171C39218AFE5B867CF6BC334B419E69541AE2678DFB4EB2069AD9042C9324CAD2D7F678FCDE8369AFCAB2705B56F258C1FCDA260645A5763257AEAA00922D870286C4AD9DEF0BAD9AEDC3DBC310A4EFE4C009BCC5379EF6468B7EBA1E231F176A0CFD6196610782804EB6EDA9BFAC31576A97E3D675A5C9973BC3F3FD6BA8BE98491C4AEF22868C040B86210BAA3DD0504AE9731EE8BFD176CA8A785B75316001E1934AE5F5015E3378BF3E77354491B259D8601CEE786A529CA2D421ADAAC32AD5FEBF4608564EB015C437E0DE0C1C5F9B8F8C6D4BF4FA8B4D348DA291EA4D4233CCB536088941C750C6398115CB1E63BF6E7D318FDAF75E771264A92197799A349B17FD75C63EA5C645A1EC369DF90EC5E1674BBBF9A40F300B0E9FD21957D0B083F747D0FBE2227D344EFFEDC1CA63FBB4ED200F6BDDBA30CB22C8462FF295D8001AA2168C9FBF7D03263AC9F1D6FE26132609BDC06A5572407A30BE5206DBA3588F435A16913CB9B89283E3AB9F9ACF5FBC9973C569E5C38E00204EC46D81846436B7CF77E5BFB569E0D7267B796FF46A42A6906F786745EB30D2730E5CCDFA9E9CCDFCAAC2CB2C111D2F1B514A61204F48872140C720B682DDD3E84980B6A65297B2F49536EF05D7CA84BEE5B7F0021765398DEED6FC87991472AAB135961BBC5A5888D9C760823A763AE214FA94804B3BC4F44C77CFAAF08165E6822BE1816A66D95AFF6C2F6026B53486BFCCA3B8986F45747892D96EF5F7A7DF497CBD807094541344D8FF80B193421A3DAA82072FDF0167ECEB34356AB73169E51D0809D567FF7B13A25616287F517956C1CCAC07EB8591338F9A97D09FD745448CEF44823AA2CA04C8566926DF3F479DE38140DE90E192D4EE064A70AEEC5E8A4BD7453B13D2F3D1950C00B346437AF2607937077EBAF10A475B57EF1E33EADE9383648891A0C4385D339CF698D65799AB8F5C3F50964663B7391D132917E6A14D1A8F3DBEB87A5F16188F9AF730075A7746053B752BAFB3387734D539DB175D2AD3FE557C0F8EF5F6473A6F60740B01FC1E60700377EF419D9765A5624644849751E7E9233BAAB5CDE86CA19F215EA2468007558DE7B7CC52FFAB4090A5A9C38E8431F460E042C113F70C2F6570A745DEC28C9BB0397BE68F67E4C375A3480CC227EC083B9845D431CFB85FA10FF4F36D388411ECF4CC722B78C9990B057CB29E4B27539E83BB8D6C943C58BFE2AB91D7CBA1C0D8AB7F04EC9159F27D3F037A396FD401555E00E81B5ED11C17E08ABD313CD03F5827BA8A12E20986303EECD0EC6E20779E02DFE94A834A440DAC80BD7CF8D28B0F0D2A67712617B2A4FACB56E9C700278A315B7C1319172EA54913A9405A1D7E14F064032079F2FDF949528CFD3FC486FC8454B456B789C61DBF99B42EAFCCBC946C5D80FD35766CAE0DB80C9106CD4E20C4A32CFC665E3B8458F3C59E8628EDB2B234EBE9FFE1467FE823240A38524425A3A584744F324900780399C038B8F0A83FCDC4DEC43C8177888443CE76D98D46B02A3A43E347362CD061AF58049E2391E68A0A9D5C671CAE6000795F3B922532AD18089F1D6C5325E73648276344CEA034EF498C861E8A0EE136EFAAB2C831F6285F86B07CF7FF641736911B3DD0A1E422383929E095069EDA4F566F32AD321660C626B77B312FFA3EA6367048FBF6B1ACC8A6B838D18AB0774FD63B18B757CB8BA48BB06FDAD4D9EA0B31F5E13788F53F626D2239F4DBB5F5223A297E2E55EC916B4EA581502CABAC3A1A08F83F98D2FA3EFAEE5711259187B64F66A910234C29A7A468D6EA50C5C0AD76CB461E6C089E60B4DC469DF4D86A1469667D0546AF1ED945E7204D34B36B8A4129A35A4875A2A3EDC2C3F67E342A3E9D8E9A2242C254814000000CC062ECBC52C43E0C7963EE10920F784C649CB70</adl_Token>
+          <adl_StorageEndpointSuffix>dfs.core.windows.net</adl_StorageEndpointSuffix>
+          <adl_StoreName>azsabcleareralteryxtest</adl_StoreName>
+          <adl_StorageAccountKey>201000000D08C9DDF0115D1118C7A00C04FC297EB010000007FD17DA5524A4F42A4C5032847838B360400000008000000500057004400000003660000C000000010000000C89B2E4575F4CFA55E5931EB8962A6BA0000000004800000A0000000100000000A18450F5C50815F6A17F4D242F806C1280500000665181C826ABDC4FD054EC15764BEE6836C5927DDA1E109A08AF0C1E2604CA9BB2DD56D0010396F318AF5FFA48D4ABDD8697F0EFE50454F9FA6DF418EAD249B21EFD6A5CEE3B18F3EEB0ECC5E03743BFFDF1A7C0D3C0FB38F5F5B68F087E4A38D5549EE6BC62B88A0C751DC6E1EB2F213EC68423B429AE21691F442182098CDCFA0A5B08D71BE194DA6C1A8B38A6D39376339F39C6C988773728B0FFA626050BD5FCEABD379D36BD5929040071A49E0E0B43524E668FC9FAF8D90DEDE62B454000F54FE1E28EB483E496F1DFA0E38DA305463B440F7A07E70B6A01106E70C9024A2EA1D2D9FFD46229FD7A70575371AF116BEE33475720398269C7CA88765C1BB9CF306F80692C69EC9F26D9CFDF10788A08E077BCAABBAF4501A1100F54114810719FAE95A51E9E39A04C4EB51D6507CAE9BAACC21B63F9DC622B064AC414B69E9B5F1BE3EBBCE74C125E08D9F77E22A694A435FEE6E78C1E132DD1C1F95753710F9C07D5510C703F1602FA7212BEAB9C18F37FD57F0632BDA5EE0E925C3734901656D7A0017E3D05506980DBA593F5682815124B7D0F6C75E89B8C12C48E3F2E0E819D8FC336762572E41598500571F0A1A5629B31951802902C5465356C44BB1C6988F218842D10C7096156E3064223429EDCF6793D8E7A0EF323657AD54B92D046449C3104C0CF339AAF6F7B15DB03F84C94392B864A6494BA0356E6C6FFADDFF097B08BC6146A45BAB3E07D9E8763A0D33BC75AD5271D88E6BBFD7349D124B4F8C6BB0963A55E8C1060462704CD2F5084D74F237F30E94A1AB18F17DFA4DAC3485947CA3DE2A29046BDB8A96649E98B0EA59723D6C222AA1C6248D41552EF3BC2E91A26C411B0F0FADCB3FDF23BE2B16FEF3EBC8D642815800626973C616EA2C3D99F23F04EF23B0A4E42D669A3209A2DE8EB759C3EA7A421E215C9E85712E7094BE8EDCB8099E57E8AB9F71607C4A329097E1404081215C5BFCDFF51D97856C39575D48904B564624F4C53D47A4526B97820839D64C439FB0BBFF0C68BC2E32C11964F4CD2AA9201D2A0B06717F36B3A4FFE66616DD53F04FFF4CAA7CFB8C2EF8E3A4AD9947C9433838B217334B8E2884432520CD8F7F51281B9EDDC680B9D6A8D130CAFE4A6D6AC9B24716370C5C3F0D856E21E38B02F96D830DBBD9667361689498287C798B46EEE78767D77B6E8B3A728433D62089C2392571FE13A457533A9662166728D2C1E0B42D9E8C113B03B44797702C62F0A621136A65A17C2B488E4B5E57ECC46F2B03F5AD3B705C3EFD29107E81E06A8AAB94314633369D434E7AB130C92471C9E9D940275C92D15A3FC19B1E615C120296A3C8008CB51A7082BAE0653744E8864BCA9FD0058747D0EF1758AE0AD2360501AC7A3F9989BCABACAC4892AA994755FFAB5CFE2E114D16AA23AB81C149F936241B12CC1A5F69B979C8B9ED074C859F48FD78767893F3EAFF274DDB7063E306B1875760FA0B5EB5F1EE0D38FB2DDC157B341F3D8028F1B381641CE88E9EA716811A91C33B1380860A31704F50EDCF5E9BBB0D00DC88FD625B8010E899B2BDFF9E8EFD179FD21B235591CF893BC9DD8A1E66690A8F501E2135A47766CAC4106955E9058DEE934F259961E3E7514913BD8B5EF5DCFF4EEB5AE658D15EBC1D5E40D93F765080BE19C488246AB752C5D9EEF574C5C364BB42C8B7E9111EF53D17C1155E2A9C11428932091D61F9B10913BC50E8878845AEA85DD009E62F9F1111863A7BE0CB9E85608F77EC1BDD31F562598B12EB68203CD65E234F885030C53E5C09DA8F928F1213695CB0B4DEDAE6504617E4D6D8379C4E042C774A99845AD24A0FF3C253090D5937419E54B5DDD414000000FCF60147C4A5A61AD25921E7E4B31D921D7000BB</adl_StorageAccountKey>
+          <adl_Endpoint>https://login.microsoftonline.com</adl_Endpoint>
+          <adl_TenantId>
+          </adl_TenantId>
+          <adl_ClientId>
+          </adl_ClientId>
+          <adl_SecretKey>
+          </adl_SecretKey>
+          <adl_RedirectUri>https://login.live.com/oauth20_desktop.srf</adl_RedirectUri>
+          <adl_AlteryxClientId>2584cace-63ff-47cb-96d2-d153704f4d75</adl_AlteryxClientId>
+          <adl_AlteryxTenantId>common</adl_AlteryxTenantId>
+          <adl_ExistingFileBehavior>Overwrite</adl_ExistingFileBehavior>
+          <adl_Gen2FileSystemName>collect</adl_Gen2FileSystemName>
+          <adl_FilePath>/test2.json</adl_FilePath>
+          <adl_SheetName>Sheet 1</adl_SheetName>
+          <adl_Page>SelectConnection</adl_Page>
+          <adl_FileFormat>XLSX</adl_FileFormat>
+          <adl_Delimiter>COMMA</adl_Delimiter>
+          <adl_DelimitedHasHeader>True</adl_DelimitedHasHeader>
+          <adl_QuoteCharacter>NONE</adl_QuoteCharacter>
+          <adl_CodePage>utf_8</adl_CodePage>
+          <adl_BufferSize>16</adl_BufferSize>
+          <FIPSMode>false</FIPSMode>
+          <adl_SelectedIndex>test2.xlsx</adl_SelectedIndex>
+          <Secrets />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <SdkSettings Manifest="True" Language="Python" PluginDir="azure_data_lake_output" Transport="arrow">
+          <CustomParameters>
+            <Version Value="2.1.0" />
+            <ToolVersion Value="2.3.0" />
+          </CustomParameters>
+          <InputConnections>
+            <Connection AllowMultiple="False" Label="" Name="Input" Optional="False" Type="Connection" />
+          </InputConnections>
+          <OutputConnections />
+        </SdkSettings>
+      </Properties>
+      <EngineSettings EngineDll="SdkEnginePlugin.dll" EngineDllEntryPoint="SdkEnginePlugin" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="42" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Data</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>collect_excel_sheet_report_for_Data Specifications.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Completed" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F2" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Mayank Agrawal" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="42" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (5)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="258" y="282" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="42" y="42" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (7)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="282" y="138" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="8" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Question" />
+      <Destination ToolID="8" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (5)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (2)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>read_json_from_blob_container</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eafd88f0-fe78-4752-887b-f0b4a1bee6a8" />
+      <Telemetry>
+        <PreviousWorkflowId value="9fc8299e-adc6-4eb6-bedc-28306cbb21c7" />
+        <OriginWorkflowId value="bdfccd4b-2e6a-405b-956b-1896808bb3bd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="6" />
+              <Expression>[#1]+".json"</Expression>
+              <Destination>1/adl_FilePath</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="8" />
+              <Expression>[#1]</Expression>
+              <Destination>1/adl_Gen2FileSystemName</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (3)</Name>
+          <ToolId value="3" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>blob_path_and_file_name</Description>
+              <Name>Control Parameter (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (2)</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>bclearer_stage_name</Description>
+              <Name>Control Parameter (7)</Name>
+              <ToolId value="7" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABA1SURBVHhe7Z0J8HVjHce1ilJClmhDi1DKThTZ2qxNKVFpqJRRppRJm0SLV0SKJkRhhvJqs0Uksg0ZVFoQKmWiXku0fz8zzvTMM7+z3fOcc89z7+8z85n0f88959x7vvfc5zzrYj3yKLmTPFveJf8t/+smd5G8VO4hHyudliwnz5fWh+v250L5ZOk0ZEl5tbQ+TLd/uUksJZ0GHC6tD9EdzvOkB7aGlSRlKOsDdIf1AulFggr2lNYHhzxk3eEm825pfc6hHtgKTpbWh7ZAPkY+2k0mT//WZx3rgS3hIml9YOtLJy3vl9ZnbemBNbheWh/W8tJJS5uwogc24ufS+qCeIp20tA0remADPKzDURbW24y/hXpgH8HDOhxlYT1Qfi76W6wHVnhYh6MsrB+U9BGoCywtXXMdWA/rcFSFFZoEdq7vsB7W4agLKxDYz0pru8K5vcN6WIejSVihSWDn8g7rYR2OpmEFL8MaeFiHo01YwcuwER7W4WgbVvAybICHdTgmCSv4HfYRPKzDMWlYwe+wwsM6HF3CCsUd9j/S2g/O9B3WwzocXcMKxR22KrAze4f1sA5HirBCk8DO5B3WwzocqcIKc3mH9bAOR8qwwtyVYT2sw5E6rDBXd1gP63D0EVaYmzush3U4+gorzMUd1sM6HH2GFZoENus7rId1OPoOK8z0HdbDOhxDhBVmtgzrYR2OocIKM3mH9bAOx5BhhSZ32KwC62EdjqHDCk0Dm8V0mx7W4SgL61XyhB5l8r2/SuvYhVnMD+thHY6ysI7FUySzHY4WD+twjD2s/5Ivl6Nl7GHlm76W3E8eI0+Se8snyLHxePl2yU/vlyXhfJEs7lZjDyseLUfLmMPKHLHnyodkeG48LHxT8vAwFph4+XgZL8f0sKQ8uIHMIazM1ztaxhhW1uPaS94nrXNDQsFdayysLgmmda7Iug2XR38bo9fJ0TLGsO4uqy584TZyLGworXOM5cl82ynL57axtM6PPIyWsYX1efIeaZ1T6J/kinIsLCN/J61zDb1XrimnDdfXOj8Pawt4OLHOJ/R2+To5NraWt0jrnENPldPGw9qRZWXZ8ju/le+R68oxNw8+Sa4j3yl/Ka33wt11ZTlNPKwdoSxlNQv+Ua4mc2MVWTYFOws6TxMPa0feIa1zoX41Vw6T1nvaX04TD2tHPiCtc5n2he1C2RfwYDlNPKwdofeRdS5UpudK2XKjn5LTxMPaEQ/rcHhYO+JhHQ4Pa0c8rMPhYe3INMJKPwTsCw9rQuY1rKvKEyUtTrfKb8jny9R4WBMyj2GlEwcNDfFxaD3bQqbEw5qQeQsr44yuldZxkM9jaZkKD2tC5i2sW8qqkZ64g0yFhzUh8xbWPaR1jNB9ZCo8rAmZt7BSJq27s24vU+FhTciYwsoFtM6FQXipoAvfNdI6Dt4gU5ZZd5HWcY6U08TD2pHvSOtctpIpYQjK72V8HEYfpB6KXDbc5UI5TTysHXiOtGYN+ad8rkzNs+VX5Y3yJskQ7z6OQ5/Wv8v4fTEYcg05LTysE/I4ebq0zuNqyXj8vlj8EfuC4eIXS+u98UvS57Gr8LBOAMc5Tsbj7Qs/LHOH2gXrvfGgx2hXBhsOjYe1AdxJGKKyqfyQvFmWPZ0zWnQFmTtPlWXjsZAm34PkZpKiyBCzzXhYa9hEMonC/bKu+og7LXWiswJjrphLynqvhXwmD0jK0TRe9ImHtQKqg34jrWPFctGYc4my7KzA9EKMx6r7khbeKfv8VfGwVsBPXFm5NPYsOcaJ17rCgyLTSlrvOZZQbyf7wsNawYtlkymBkDkCmJll1qC6jGoy6z3HUmSgd1hfeFgr4GfwTGkdy5Jy2yw8XBXwxE81nPVeLc+RfVbZeVhroHveAZIpIAkjD1rWsQuZ43TUMzE3hJEIrJxivcfCByV3XZb8oWYgZZOvhYe1BTw80Wp1qCyb2pKWn41k7qwty94jIT1CMmVmn3fSGA/rhPAgUbZAAxP05s4Cab03AkyVVp9jwMrwsHbgvdKqLWDGwL7OZQn5UrmefCJ/6AH2+ysZvy+e9ikSTQsPaweWlGX1sC+RqaGDySWSp26+JFfKPiZ/o1bDqlulHnXozzjEw9oRfvKtc0k5zKSAka3xcc6QqaElKj4OnianiYe1Ix+R1rmkHGYCPMhYP81MT0nn7JTsJuPjILUD08TD2pGhhmJTjrSmVP+DTN0Dyoe1JMTD+n89rB7WxnhYh8PD2hEP63B4WDviYR0OD2tHPKzD4WHtiId1ODysHfGwDoeHtSNDhZVRCHTwjo9zh0y9IJyHNSHzGFZYKOPj0Jc0dQ8oD2tC5jWsa8mw4wy9u9aXqfGwJmRMYX2ftM7lQNkHy8s3yF3lSvyhB1hv1npPH5fTxMPakTdJ61wY7coYrtxgSA5rFVjviYWIp4mHtSN0gv6HjM+Fv7GsJPNG5QJfLr581qRs9KFNPVthWzysHaHrXtk0O8wmeIVk0eHXyyHHKzWFcWU7yqPkZdL64iHVZqm7IrbFw5qAfWXdrCX07D9WjqlowE/+52XdFEFIv91p42FNAHecn0rrnEK5a60pxwIjda2f/NifSSZqmzYe1kQwk96vpXVeodvKscCQcescQ/n5p8psDHhYE8Kd6keybH6sv8iV5VhYTlpTvyPFmstlHysYToqHNTE0izKG6cfyb7IoyzL3P38fGztL+hdwjpzrIklIaRhg9O6Y8LD2BA8vz5S0MFHl01cFfgqYn2tzuYFkIraxTn/kYXWywcPqZIOH1ckGD6uTDR5WJxs8rE42eFidbPCwOtngYXWywcPqZIOH1ckGD6uTDR5WJxs8rE42eFidbPCwOtkwU2FdVTJUw51Nub7Wdc8yrCxPea87s5YtP5plWN351MPqZqOH1c1GD6ubjVmGlSnLmUHEnU25vtZ1zzKsXs8623ijgJMNHlYnGzysTjZ4WJ1s8LA62eBhdbLBw9oQev08PXLS9QFYCIOp3VnGkjVZWYQiJaw4WBwD+e/UqxBOAw9rQ6w1A+iy1hQm5t1FniiZo58KbiYYprL7Onm2ZJEJ5kidZDki5lRdTe4nfyCLY+D18hzJAnOry0nmX+U1e0kWbiv8mOSYTWG+2vD1yAJ0TfGwNmTSsHKRt5Nl5xzLyiknyzZ3bc7j6/Jhae0zlG1YlK1NyIDzuUbG+ztTNg3/y2T8+m/JpnhYGzJJWPnp5W7WJEShvKYJ7P+NkrUKrP1UeY9kgbamxYOysLICzdayCR7WwLGFlYXayoLKHZRlfR6U4TYsJLy0rIOQsTxl2dJALBh3v7xPli3E9pDcRzYJbFlY8Sq5uKzDwxo4prCybpS11BC93T8jN5UsR8QKL2vLt8hLJeXCJmwlraD+WX5abiJXkaxlsK48SBYLXYQS2G1kHVVhZXWaJuftYQ0cU1jfLOPteZgiOGXwYNWkrPo0ebOM93+J5CGmDJY1+qGMX8eXitW2q6gKK/LeqDGpwsMaOKawnirDbfnZ316m4JMy3Dfy9F8XFmAbah/i1x8iq6gLKx4mq/CwBo4prKwlFW7L3Ys61a5Qnr1VhvumzPtK2ZQtZVyWvl1WlZWbhJV1v6oWefOwBo4prNRthtteLSep34yxihfnyzb7ZttzZbgPFmzbQ5bRJKx4uix7YPOwBo4prFTMh9veJSlrdoVGhXC/uLtsy1tlvJ9TZBlWWHmwimsauGNvIS08rIFjCuuhMt6ep/Qud1eaZW+S4T4fkNQotOVZkmqzcF88tJW1nllh5fXHRX9DikA08cZ4WAPHFNY1JPWc4fbUffJwxPquk8BSlfE+qZedZH80/8ZVa+y7rGWrLKzUbtwY/A25475NxnhYA8cUVviELBYaDr1M8lPZtg/AOjLe3wVyUs6T4b7Y93rSoiysPFDtKOOVwG+R1DWHeFgDxxZWWnVOkFZgubgXyW1l015XBDzez2lyUuLqNaSxwaIqrJw/HWXCf8ODZYiHNXBsYQUuJHWYZc2iBJnl3gltXXmWXlvx64+Vk/IlGe+vrBdUVViB4kD8HmmtC4sVHtbAMYa1YDN5pYx/LgtpNDhJLiPLoONJ/Loj5aTw2nh/NPta1IWV6qqvyPDfkR5eRVWWhzVwzGEF7rLUk3L+VtEAr5A0i1rQ1TDenqqsSaGIEu/vtdKiLqzwDHm3DLehKosvKnhYA8ce1oIlJD2mbpPxPpEHH7aJ2VDG2y6Uk3KWjPdHBxuLJmGFA2S4Df5E8kX1sAbmEtYCfvL56aQIEO97bxnzAkn1V7jdtXKSulvCR9e+cF9U8NMDzKJpWJeSv5DhdhR9KF54WANzCytQnttfxoGlOBBXrNN2f6cMt6NLYF2PKQs6tPDacF+0spX1D2gaVqAfb1zMoT74NdHf0MPaA32FFQjCd2W4b2Z6pi9qTFw3yl2rKBO2YWMZB4rug2W0CSs/+VZXxPjc0cPaA32GFeixH+6bO60VhI/KcDs8RrblKBnvh0aMMtqEFRj4GPfssvSw9kBcvsOUYaUzSrhv7no02ca8UNIfINyWEQAryKbQoSYuThC8svIqtA0rxZuvyXB7Sw9rYig7xnODcucrq2KahLjjC8UA5iaIIQQM2w63xaNlUZ9ZBduwbfz678mq17cNK9BZpm4wo4e1AQTt1ZLyVR07yfgBiPrEqgp8Olo37Wy9rKQtPdz/xbLsKf8VkrFT4fY8yVMdVhU4/u3dMu7Wx77qOm9PElZgLoTwNbEe1hq4aEW7OF3uaMOmfpGeSHQuIST8Lx0x9pXW3eFCyQUsY0/J3ZjBgZTf6CcQB4n/z5gpOk+H+6YIsJssg9cdLsPXICGkLMrPfHgs3g8PazTNxkHFJq1gk4aVWWesgZOFHtYaaKWJ6yuRYcuEl7Z6/jfujldYFyZgoorwNcy+wk8tYWImEtrl6a1vHYMvQt3QZuozL5Xxa5F90rGEcB4v6TBT1jeBvqcEqo5Jwwo0E8c1D4Ue1gr40K2HpTbSalRVfODfqFe0XlsnFepNy8IUQ+LhKW3kjl5VlAnpElbK/BRrwtcWelhroBL9C5IBbmXfeEvqNM+QdXci7opflE2qbgrZ9/flirINFF0oxiyS1n4t+QWhJ1ibAYxdwgrMY2AVQTysDWF7fs6/LfmZtpo9CRFVRfys0gLTpmmTbnOUBxlTT7Ej/mKwb4LDvl8lJ2k2LaAabYHkjs77CI/Ff/M3/u0IyeRsbSGsDHrknAspbjQNK++N+bjC1yNzZTVlrsMawodJvSY1BAzJ4AFpZ0nP+SZluip42OGOubncQe4qKTdvJJmSMiW8D/oQ0ImaLyLy3/yty5eB97CWpDNN4fqyzZAamnLD1yOz0jTFw+pkg4fVyQYPq5MNMxXWptUwTp5wfa3rnmVY3yV5iHBnU66vdd1HHVYG3lknjVRBFXPpu7Mj19W63kgeRovVLu7Or+RhtDCKkjnxrRN350tyQB5GDS0+bZoY3dmT608OsoAWlRuk9Ubc2ZbrzvXPCtqsabNnDDzDO6z2fTd/ua5cX64z15vr3gOLLfY/kHhFEt6jZOEAAAAASUVORK5CYII=</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (5)</Name>
+            <Description>blob_path_and_file_name</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (7)</Name>
+            <Description>bclearer_stage_name</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="1" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

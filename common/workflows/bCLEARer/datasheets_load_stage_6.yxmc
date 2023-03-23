@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\RDL\DEP\02 - Load\Data\datasheets\stage_5\00df56d9-925c-440a-bd5b-47418b37a57c_stage_5.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>00df56d9-925c-440a-bd5b-47418b37a57c_stage_5.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="255" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="full_name" size="1073741823" source="Formula: [#1]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (27)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="66" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">..\RDL\DEP\02 - Load\Data\datasheets\stage_6\stage_6.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>stage_6.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="366" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#2</Connection>
+            <Connection>#1</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" field="sheet_uuid" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[sheet_uuid = Replace([sheet_uuid], "_stage_5.yxdb", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="618" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="cell_uuids" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">..\RDL\DEP\02 - Load\Data\datasheets\stage_6\stage_6.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>stage_6.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sheet_uuid" selected="True" />
+            <SelectField field="row_uuid" selected="True" />
+            <SelectField field="column_uuid" selected="True" />
+            <SelectField field="cell_uuids" selected="True" />
+            <SelectField field="cell_value" selected="True" />
+            <SelectField field="cells_types" selected="True" />
+            <SelectField field="parent_1_cell_uuids" selected="True" />
+            <SelectField field="parent_2_cell_uuids" selected="True" />
+            <SelectField field="full_name" selected="False" rename="sheet_uuid" />
+            <SelectField field="parent_3_cell_uuids" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: Replace([sheet_uuid], &quot;_stage_5.yxdb&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="440" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="440" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_3_cell_uuids" size="285" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="full_name" selected="True" rename="sheet_uuid" />
+            <SelectField field="row_uuid" selected="True" />
+            <SelectField field="column_uuid" selected="True" />
+            <SelectField field="cell_uuids" selected="True" />
+            <SelectField field="cell_value" selected="True" />
+            <SelectField field="cells_types" selected="True" />
+            <SelectField field="parent_1_cell_uuids" selected="True" />
+            <SelectField field="parent_2_cell_uuids" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sheet_uuid" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field name="row_uuid" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="column_uuid" size="255" source="Formula: Replace([column_uuid], &quot;group44$&quot;, &quot;&quot;)" type="V_WString" />
+            <Field name="cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cell_value" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="cells_types" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_1_cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+            <Field name="parent_2_cell_uuids" size="255" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Question" />
+      <Destination ToolID="5" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Unique" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (4)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>datasheets_load_stage_6</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="5dac85ff-79a4-43a2-b9b0-92659ff1b709" />
+      <Telemetry>
+        <PreviousWorkflowId value="37e121cd-a18c-4392-a0db-5e9fea10352e" />
+        <OriginWorkflowId value="37e121cd-a18c-4392-a0db-5e9fea10352e" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="5" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>2/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Full Path</Description>
+              <Name>Control Parameter (4)</Name>
+              <ToolId value="4" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (4)</Name>
+            <Description>Full Path</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="8" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

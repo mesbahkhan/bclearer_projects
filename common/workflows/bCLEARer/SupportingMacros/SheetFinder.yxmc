@@ -1,0 +1,1234 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="630" y="918" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="474" y="1038" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Iterate out Temp Folder by BatchID</AnnotationText>
+          <DefaultAnnotationText>Iterate out Temp Folder by BatchID
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="114" y="246" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>FullPath</Name>
+          <AnnotationText>Batch Macro Control Parameter</AnnotationText>
+          <DefaultAnnotationText>Batch Macro Control Parameter
+FullPath</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="2094" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="FileName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>DummyData</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FileName" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2514" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output7</Name>
+          <Abbrev>1</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1 Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2382" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+            <Field name="FileName" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="1722" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="1938" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1974" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Pass File Path</AnnotationText>
+          <DefaultAnnotationText>Pass File Path
+Update Cell</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1110" y="306" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Turn on/off xlsx reading</AnnotationText>
+          <DefaultAnnotationText>Turn on/off xlsx reading
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="954" y="678" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Turn on/off xlsb reading</AnnotationText>
+          <DefaultAnnotationText>Turn on/off xlsb reading
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="138" y="1098" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Turn on/off xls reading</AnnotationText>
+          <DefaultAnnotationText>Turn on/off xls reading
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="630" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update FilePath</AnnotationText>
+          <DefaultAnnotationText>Update FilePath
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1074" y="450" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update FilePath</AnnotationText>
+          <DefaultAnnotationText>Update FilePath
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="894" y="342" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FileGetExt([#1]) IN (".xlsx",".xlsm") AND ![#2]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="486" y="630" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FileGetExt([#1])==".xlsb" AND ![#2]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="186" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FileGetExt([#1])==".xls" OR [#2]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="114" y="366" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BatchID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="954" y="786" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Iterate out Temp Folder by BatchID</AnnotationText>
+          <DefaultAnnotationText>Iterate out Temp Folder by BatchID
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="114" y="498" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Force XLS Toggle</Name>
+          <DefaultAnnotationText>Use XLS sheet finder for all types?</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2406" y="366" width="443" height="214" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="2466" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter />
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>"Getting sheet list from " +[FileName]</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FileName" size="9" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="2562" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Sheet Names" action="Count" rename="Count" />
+                <SummarizeField field="Sheet Names" action="Concat" rename="Concat_Sheet Names">
+                  <Concat_Start />
+                  <Separator>|</Separator>
+                  <Concat_End />
+                </SummarizeField>
+                <SummarizeField field="FileName" action="GroupBy" rename="FileName" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - Sheet Names" type="Int64" />
+                <Field name="Concat_Sheet Names" size="2147483647" source="Summarize: Concat - Sheet Names" type="V_String" />
+                <Field name="FileName" size="9" source="Summarize: GroupBy - FileName" type="String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FileName" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="2646" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Last</When>
+              <Filter />
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>TOSTRING([Count])+" Sheets found in " +[FileName]</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - Sheet Names" type="Int64" />
+                <Field name="Concat_Sheet Names" size="2147483647" source="Summarize: Concat - Sheet Names" type="V_String" />
+                <Field name="FileName" size="9" source="Summarize: GroupBy - FileName" type="String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FileName" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="2730" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Last</When>
+              <Filter />
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>[Concat_Sheet Names]</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - Sheet Names" type="Int64" />
+                <Field name="Concat_Sheet Names" size="2147483647" source="Summarize: Concat - Sheet Names" type="V_String" />
+                <Field name="FileName" size="9" source="Summarize: GroupBy - FileName" type="String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FileName" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1266" y="1194" width="371" height="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>XLS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1518" y="1278" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="True" rename="Sheet Names" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename</AnnotationText>
+              <DefaultAnnotationText>Rename</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Sheet Names" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1422" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Field_1</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filter any NULL sheet names</AnnotationText>
+              <DefaultAnnotationText>!IsNull([Field_1])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+            <Position x="1326" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputConfiguration>
+                <Configuration />
+              </OutputConfiguration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">%temp%XLStabs.txt</File>
+                  <FormatSpecificOptions>
+                    <HeaderRow>False</HeaderRow>
+                    <IgnoreErrors>False</IgnoreErrors>
+                    <AllowShareWrite>False</AllowShareWrite>
+                    <ImportLine>1</ImportLine>
+                    <FieldLen>254</FieldLen>
+                    <SingleThreadRead>False</SingleThreadRead>
+                    <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                    <Delimeter>\0</Delimeter>
+                    <QuoteRecordBreak>False</QuoteRecordBreak>
+                    <CodePage>28591</CodePage>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <ProgramName>cscript.exe</ProgramName>
+              <Arguments>..\SupportingFiles\ExcelTabsScript.vbs "C:\Users\Mesbah.Khan\Shell\Unified Cloud Engineering - Rheinland - Aveva Integration\bCLEARer\01 - Collect\Electrical\DEPs_Reference_PDF's\Datasheet Templates\33656093_SR_2017-02.xls" %temp%XLStabs.txt</Arguments>
+              <WorkingDir />
+              <RunMinimized value="True" />
+              <RunSilent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Run the Excel Macro</AnnotationText>
+              <DefaultAnnotationText>Run cscript.exe</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit>
+                <Dependency Path="cscript.exe" Package="False" IsMacro="False" IsOutput="False" IsAlias="False" />
+              </Implicit>
+              <Explicit>
+                <Dependency Path="..\SupportingFiles\ExcelTabsScript.vbs" Package="True" IsMacro="False" IsOutput="False" IsAlias="False" />
+              </Explicit>
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\MESBAH~1.KHA\AppData\Local\Temp\Engine_30372_e60542377b9641eda13105c6d0bfe650_\XLStabs.txt" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1302" y="870" width="120" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>XLSB</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+            <Position x="1362" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputConfiguration>
+                <Configuration />
+              </OutputConfiguration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">%TEMP%\XLSBTemp\docProps\app.xml</File>
+                  <FormatSpecificOptions>
+                    <ParseRoot>False</ParseRoot>
+                    <OuterXML>True</OuterXML>
+                    <IgnoreErrors>False</IgnoreErrors>
+                    <XmlElement>TitlesOfParts</XmlElement>
+                    <ChildValues>False</ChildValues>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <ProgramName>..\SupportingFiles\unzip.exe</ProgramName>
+              <Arguments><![CDATA[-o "..\XLSB.xlsb" *.xml -d %TEMP%\XLSBTemp  ]]></Arguments>
+              <WorkingDir />
+              <RunMinimized value="False" />
+              <RunSilent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Run unzip.exe</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TitlesOfParts" size="1" source="File: C:\ProgramData\Alteryx\Engine\Engine_14884_0ed46ad114b44d67b500186cff58f726_\XLSBTemp\docProps\app.xml" type="V_String" />
+                <Field name="TitlesOfParts_OuterXML" size="106" source="File: C:\ProgramData\Alteryx\Engine\Engine_14884_0ed46ad114b44d67b500186cff58f726_\XLSBTemp\docProps\app.xml" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1554" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="lpstr" selected="True" rename="Sheet Names" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename</AnnotationText>
+              <DefaultAnnotationText>Rename</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Sheet Names" size="1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+            <Position x="1458" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <XMLField>TitlesOfParts_OuterXML</XMLField>
+              <XMLElement>lpstr</XMLElement>
+              <ChildValues value="True" />
+              <OuterXML value="False" />
+              <ParseRoot value="False" />
+              <IgnoreErrors value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse out Sheet Names</AnnotationText>
+              <DefaultAnnotationText>Parse out Sheet Names</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="TitlesOfParts" size="1" source="File: C:\ProgramData\Alteryx\Engine\Engine_14884_0ed46ad114b44d67b500186cff58f726_\XLSBTemp\docProps\app.xml" type="V_String" />
+                <Field name="TitlesOfParts_OuterXML" size="106" source="File: C:\ProgramData\Alteryx\Engine\Engine_14884_0ed46ad114b44d67b500186cff58f726_\XLSBTemp\docProps\app.xml" type="V_String" />
+                <Field name="lpstr" size="1" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1338" y="510" width="146" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>XLSX/XLSM</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="1398" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\XLSX.xlsx|||&lt;List of Sheet Names&gt;</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>XLSX.xlsx
+Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Sheet Names" size="5" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#3">
+      <Origin ToolID="54" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="13" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="25" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="True Condition" />
+      <Destination ToolID="25" Connection="Condition" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="53" Connection="Question" />
+      <Destination ToolID="25" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True Condition" />
+      <Destination ToolID="32" Connection="Condition" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="53" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="39" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="True Condition" />
+      <Destination ToolID="39" Connection="Condition" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="40" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="40" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="42" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True Condition" />
+      <Destination ToolID="42" Connection="Condition" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="42" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="43" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="43" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="44" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="44" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="46" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="46" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="47" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Question" />
+      <Destination ToolID="47" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="24" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="24" Connection="Targets" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="38" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Right" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="13" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Action" />
+      <Destination ToolID="20" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Action" />
+      <Destination ToolID="29" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="43" Connection="Action" />
+      <Destination ToolID="37" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="25" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="56" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="39" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="True Condition" />
+      <Destination ToolID="56" Connection="Condition" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="53" Connection="Question" />
+      <Destination ToolID="56" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True Condition" />
+      <Destination ToolID="54" Connection="Condition" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="53" Connection="Question" />
+      <Destination ToolID="54" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.FullPath</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (53)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Force XLS Toggle</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SheetFinder</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3c54f2e4-d6dc-4801-b108-8d4e849cecb2" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="3c54f2e4-d6dc-4801-b108-8d4e849cecb2" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="13" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>14/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="43" />
+              <Expression>FileGetExt([#1])!=".xls" AND ![#2]</Expression>
+              <Destination>37/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="40" />
+              <Expression>FileGetExt([#1]) not in (".xlsx",".xlsm") OR [#2]</Expression>
+              <Destination>20/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="44" />
+          <Expression>FileGetExt([#1]) IN (".xlsx",".xlsm") AND ![#2]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="39" />
+              <Expression>[#1]+'|&lt;List of Sheet Names&gt;'</Expression>
+              <Destination>6/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="46" />
+          <Expression>FileGetExt([#1])==".xlsb" AND ![#2]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="25" />
+              <Expression>'-o "..\XLSB.xlsb" *.xml -d %TEMP%\XLSBTemp'+[#2]</Expression>
+              <Destination>26/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="56" />
+              <Expression>'%TEMP%\XLSBTemp'+[#1]+'\docProps\app.xml'</Expression>
+              <Destination>26/InputConfiguration/Configuration/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="47" />
+          <Expression>FileGetExt([#1])==".xls" OR [#2]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="32" />
+              <Expression>'..\SupportingFiles\ExcelTabsScript.vbs "'+[#1]+'" %TEMP%XLStabs'+[#2]+'.txt'</Expression>
+              <Destination>33/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="54" />
+              <Expression>'%TEMP%XLStabs'+[#1]+'.txt'</Expression>
+              <Destination>33/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="42" />
+              <Expression>FileGetExt([#1])!=".xlsb" OR [#2]</Expression>
+              <Destination>29/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (4)</Name>
+          <ToolId value="4" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>FullPath</Description>
+              <Name>FullPath</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (7)</Description>
+              <Name>Macro Output (11)</Name>
+              <ToolId value="11" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>BatchID</Description>
+              <Name>Control Parameter (53)</Name>
+              <ToolId value="53" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Use XLS sheet finder for all types?</Description>
+              <Name>Force XLS Toggle</Name>
+              <ToolId value="60" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AutoByName</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>FullPath</Name>
+            <Description>FullPath</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (53)</Name>
+            <Description>BatchID</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="11" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

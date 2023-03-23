@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="azure_data_lake_output">
+        <Position x="414" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <isUserLoggedIn>true</isUserLoggedIn>
+          <IsDcmRequiredForUT>true</IsDcmRequiredForUT>
+          <adl_StorageVersion>Gen2</adl_StorageVersion>
+          <adl_AuthenticationType>SharedKey</adl_AuthenticationType>
+          <adl_Token>201000000D08C9DDF0115D1118C7A00C04FC297EB010000007FD17DA5524A4F42A4C5032847838B360400000008000000500057004400000003660000C00000001000000001F1A02A849C1519D3C803F22E92D7180000000004800000A000000010000000F4FA50E9E0D391516C1AF79E3CB9E674080900001DB3A46E03315E5BEA7CE16AF8A9999225B5F2A32BE0032AAA1844A3200C94339EC89696DA9122F0A4BB125050FFC40296759D138A90D6559AB725F3ACEC399BAB36C895626964CE59A4287F0842872CA99580B8B556B898DEB3727FE5DD0404417F7010F7B3CA658F2834F82752948F1983B6A695B6648E2B71001CEB55E3826498FEFBF2EA52FAC155173BF5148BC889275BA4058253FE33E600C1D8881A76C1400DD62DFDF17DF065E71F26D97DF24FCEE797047EF98916060B06D9EFF445BCEBD8A904801FD020770DB30FC9A101FCACAD2C2EFFF20122F353381F360E3CB65C2D76F8BC57E78CC80CA9B290DEEEFB50EED7A2C4A6002905D5E6C9FCDD9451DF1342A0BDA1449097342095E3DCEB5214E8F0574A3BAD94D3EAF3AAA044AD77CED788F8895449D95357731350AF31C671761C6E3F137C2A633A4158B41D7D21528E2100D65853A087F4048E5A8B0FE9493387732FD6408ED469792ED86E6B8BE9A7483749E4CA87636135ACD36E132CC5859FD30DAB8574A4A343EB659427124324FEF32214ACF0FB9D88C47D0E5BFB4C043F8BB2C899BDB271B840B6F411F225903E6D44E6E394C00867337782D360302596844062EC9ECEB29188030F8764A47BFDD20133E2CC062E4C3BE0123F9933340336AEDA7D1D4468FC26FCF2C34CA704564152F97631C08F422368CE3A9FE11CF4FE0C736B01458F7635CAC2290B5DF459B903C1A4230B55F0B3041219D128C69097835CC66002D1716B1CBEE43950CFDC2504F4612B7F57A1B3F48D6A67F645D7E7A8DA97C86CDBA53AEE800C83226BC77344DF187C1D36135514C0321163C4949ED58178BF82507876E8898C214D4299FD18E408C51FF5AD3793E969C0B942EE7A6ABA89A689F2535145F8CCE8965EEE36BC72AB281CDCAF39732E43F46A1322EC6A71DE9459E91B5B49AF44BCE986E16695462F07BA4F7EBD04B3D6E418AFEA7179DA5CB37163C5BEACA53EC37F5CE73805990F29CB0D3A640ED0C07F4B497CC624448EE990F3030D364772EC5AC5B9916C372E8273CA8FC33A36431015619A6F0E88C46CA72404904C526FC41B955B7C76BD9D23E64216675E838D65D833A0C9A738CA8DF004B6C9CEDE828D1E542FC5EA2419B3B6419F39058254F8CF06CFB660A025735A4FC93585B68B10C95ACF67ECBBDAF2417F2050B267DE6EB016ACDA2AEDAB6695BDC00D68BBEFD9412D4123C8892121C283FE590C8B62179F848264D4D081EB1E940C9DE7B55FBFE93B42BC60BD57712EFB9FDE3D738984C17F01075D3F72B58533708C8B7D5D2DEEA8537E3284A5A86ED21C86FA86CC5B7852FBBBD1E138E0AC1F7BC69F413C125213547F10F4D7892C8E0A1E7DC12EE611360B7D4B303BECD801B544B5917A3474529AD3754EBEE7B95746B78612A73AE5FC8C55642B51CC6CC890869D8273CE0DEA61BBEEF31A03FC9AF3594C1EE890692F5ABE9E0747238F7B2AFEFAD570CBBDF199597F85E41DB7B7CA243A7506029BEF2B5644C581C67F88037ABF8E95108C292E1F8D14AB8D6EC85FFC3BDD47F224B5940C41DBAAD684C2E6B2B694403620C4B7C7EDBF28F52AD9F86B9415D8132D087B11537F08C076167755867A5E7AA17DEDE5FDF283953BC75BB8D8EC033A5ED7407AC4D8980EAC4C519434536B8C58B371432E60D98A5D5E14E982021FD3906D1A491573EAC0B27F964A528E8D2B0DA14729254BD15606CC03AA8E1A737608FDA69349555F62822C280CBAE01ABC79F014C28D9D818A7BD0E4843EB3F42BF67380D6D6D2BD27165E21AA568B9F68839E79B17287F05438D2BE24CB78CE321F6661D782B387BDD311F3C672DADB4CE57E1EE16110798F6771367D5B47D95110A541666DC56B1570FBF49F5430FD5792BF00990D79D8F7E2946CB8AE19A4B200B59BC74639DA7337D3920E481C768674D5C5EC486D33FD1D627880E6BA7BC25A5337DFE4912B5A6040E3DE725C250B431D3D2E9ACCF8297FC8BC740D071EA570FFEFCC51BCFDDC36CF84102EC3035BD0C4F6471D10393F666B5BCD89069284970D962B02B65C8DE35DB110A913FBC723EF6AFE5EE5E657AE2D834A34D7AFA3345CFE0335F40839C5621E0A6941B46E83A54D593D229382535A99806357570D261FC7FE6279441A7A01725A838992FCDCA20D8FA799CBF149B13FD15035ED867885E45D5BFE28E31B2C81467D4CDEDA5B2D6BC2D8F8C731F2D71134735D83CEE5B61637F9B77C61D7E9E60E366050A8783D44BC23275D7279C3606811CF71B5CEEB046C1148B0944EFCED1DAEEDC0B8859D475EABCC66E39A0F3915AE635374B73BA61E2AD17DC098A6D60744C5099DA1ACEC856FF76CA396F35924C7E2497846F96D2A9B75785E2DDC6346F49ADE3FAF46CE9606371B7FA1AB5618653FC437293320D04FEFB7F216EFAD87087FDE7BF30E2760AADCBA2BCEB96676D64E5D7901736400053D404932BAECFB15E9CA7CC310CEED23F78B5FFBEB57852639653D027D7E5E1D35AB945627C5591FAF9CBA3E20A5DB3177FB389FCEFC0CC449F87F9DD5446F0F7E91591DECDC8484DE8B9F5123C8BD58979EA5BABCD1428C870EAA3B3E760906916787F9B352AF864CA762358DC76D412C58F2303408EDE9C9B2FF530C0B2930591A2963CD6B2A962F27CEFD19A9079B9E38E237F8A5870E9D26CD103962E63D4F8DBDBF8B34808DDE80221CEA8238E6BAF64ABA49E8F695A505B2CAE9B621EFEF7E49287FC521039223AB102576BCD946F48BEC1E76413CDA485BB66F3ED8FD3EF7735352D887891C4DDFB6B78A86314335E8D24361EEB6E9304B46A1C8D6BE2D64C30910E9D98536738A5545442F917D3F41E051BBE176FD5AFD071B891E1354B036E6F4638D10464285A3FE2C6F8AB26BFED8E69812FCB6E6449DFCF4A00CDE773246B6CB31477BE89D9CDFB74D36DDEBE39FCFA1EF88612BA63DED43CE4AA2585598D82B5F5D7AAED486447FBF57A5CC66642FB045658416D346C43B90691E9E9CAF05BE854AE6866E3994382ABC76DB8D8D30F126380E611557A9FD9950F5B83A3C4186572939750927995640588061329926A9A0A4FC73E5F41994E7BBFED42F2A0374D7104B164F72D4C63BD0ACEFA607A88FFC9F8488C75B6624E3DBBDD3026EF32B183ACC75DDBCC46E722BD94E8974FEB062DADD272B69F10FA2A580AD6FD6D5205ECDFDF66A74E640D58A1D46D8E67C380581D84B3E959008983FC7BCDA70EF5ACE16636E1D11888A3268A51D14000000F8EE47359297EFABC0E6E6FA15CF64685527296D</adl_Token>
+          <adl_StorageEndpointSuffix>dfs.core.windows.net</adl_StorageEndpointSuffix>
+          <adl_StoreName>azsabcleareralteryxtest</adl_StoreName>
+          <adl_StorageAccountKey>201000000D08C9DDF0115D1118C7A00C04FC297EB010000007FD17DA5524A4F42A4C5032847838B360400000008000000500057004400000003660000C000000010000000C89B2E4575F4CFA55E5931EB8962A6BA0000000004800000A0000000100000000A18450F5C50815F6A17F4D242F806C1280500000665181C826ABDC4FD054EC15764BEE6836C5927DDA1E109A08AF0C1E2604CA9BB2DD56D0010396F318AF5FFA48D4ABDD8697F0EFE50454F9FA6DF418EAD249B21EFD6A5CEE3B18F3EEB0ECC5E03743BFFDF1A7C0D3C0FB38F5F5B68F087E4A38D5549EE6BC62B88A0C751DC6E1EB2F213EC68423B429AE21691F442182098CDCFA0A5B08D71BE194DA6C1A8B38A6D39376339F39C6C988773728B0FFA626050BD5FCEABD379D36BD5929040071A49E0E0B43524E668FC9FAF8D90DEDE62B454000F54FE1E28EB483E496F1DFA0E38DA305463B440F7A07E70B6A01106E70C9024A2EA1D2D9FFD46229FD7A70575371AF116BEE33475720398269C7CA88765C1BB9CF306F80692C69EC9F26D9CFDF10788A08E077BCAABBAF4501A1100F54114810719FAE95A51E9E39A04C4EB51D6507CAE9BAACC21B63F9DC622B064AC414B69E9B5F1BE3EBBCE74C125E08D9F77E22A694A435FEE6E78C1E132DD1C1F95753710F9C07D5510C703F1602FA7212BEAB9C18F37FD57F0632BDA5EE0E925C3734901656D7A0017E3D05506980DBA593F5682815124B7D0F6C75E89B8C12C48E3F2E0E819D8FC336762572E41598500571F0A1A5629B31951802902C5465356C44BB1C6988F218842D10C7096156E3064223429EDCF6793D8E7A0EF323657AD54B92D046449C3104C0CF339AAF6F7B15DB03F84C94392B864A6494BA0356E6C6FFADDFF097B08BC6146A45BAB3E07D9E8763A0D33BC75AD5271D88E6BBFD7349D124B4F8C6BB0963A55E8C1060462704CD2F5084D74F237F30E94A1AB18F17DFA4DAC3485947CA3DE2A29046BDB8A96649E98B0EA59723D6C222AA1C6248D41552EF3BC2E91A26C411B0F0FADCB3FDF23BE2B16FEF3EBC8D642815800626973C616EA2C3D99F23F04EF23B0A4E42D669A3209A2DE8EB759C3EA7A421E215C9E85712E7094BE8EDCB8099E57E8AB9F71607C4A329097E1404081215C5BFCDFF51D97856C39575D48904B564624F4C53D47A4526B97820839D64C439FB0BBFF0C68BC2E32C11964F4CD2AA9201D2A0B06717F36B3A4FFE66616DD53F04FFF4CAA7CFB8C2EF8E3A4AD9947C9433838B217334B8E2884432520CD8F7F51281B9EDDC680B9D6A8D130CAFE4A6D6AC9B24716370C5C3F0D856E21E38B02F96D830DBBD9667361689498287C798B46EEE78767D77B6E8B3A728433D62089C2392571FE13A457533A9662166728D2C1E0B42D9E8C113B03B44797702C62F0A621136A65A17C2B488E4B5E57ECC46F2B03F5AD3B705C3EFD29107E81E06A8AAB94314633369D434E7AB130C92471C9E9D940275C92D15A3FC19B1E615C120296A3C8008CB51A7082BAE0653744E8864BCA9FD0058747D0EF1758AE0AD2360501AC7A3F9989BCABACAC4892AA994755FFAB5CFE2E114D16AA23AB81C149F936241B12CC1A5F69B979C8B9ED074C859F48FD78767893F3EAFF274DDB7063E306B1875760FA0B5EB5F1EE0D38FB2DDC157B341F3D8028F1B381641CE88E9EA716811A91C33B1380860A31704F50EDCF5E9BBB0D00DC88FD625B8010E899B2BDFF9E8EFD179FD21B235591CF893BC9DD8A1E66690A8F501E2135A47766CAC4106955E9058DEE934F259961E3E7514913BD8B5EF5DCFF4EEB5AE658D15EBC1D5E40D93F765080BE19C488246AB752C5D9EEF574C5C364BB42C8B7E9111EF53D17C1155E2A9C11428932091D61F9B10913BC50E8878845AEA85DD009E62F9F1111863A7BE0CB9E85608F77EC1BDD31F562598B12EB68203CD65E234F885030C53E5C09DA8F928F1213695CB0B4DEDAE6504617E4D6D8379C4E042C774A99845AD24A0FF3C253090D5937419E54B5DDD414000000FCF60147C4A5A61AD25921E7E4B31D921D7000BB</adl_StorageAccountKey>
+          <adl_Endpoint>https://login.microsoftonline.com</adl_Endpoint>
+          <adl_TenantId>
+          </adl_TenantId>
+          <adl_ClientId>
+          </adl_ClientId>
+          <adl_SecretKey>
+          </adl_SecretKey>
+          <adl_RedirectUri>https://login.live.com/oauth20_desktop.srf</adl_RedirectUri>
+          <adl_AlteryxClientId>2584cace-63ff-47cb-96d2-d153704f4d75</adl_AlteryxClientId>
+          <adl_AlteryxTenantId>common</adl_AlteryxTenantId>
+          <adl_ExistingFileBehavior>Overwrite</adl_ExistingFileBehavior>
+          <adl_Gen2FileSystemName>collect</adl_Gen2FileSystemName>
+          <adl_FilePath>/test2.xlsx</adl_FilePath>
+          <adl_SheetName>Sheet 1</adl_SheetName>
+          <adl_Page>SelectConnection</adl_Page>
+          <adl_FileFormat>XLSX</adl_FileFormat>
+          <adl_Delimiter>COMMA</adl_Delimiter>
+          <adl_DelimitedHasHeader>True</adl_DelimitedHasHeader>
+          <adl_QuoteCharacter>NONE</adl_QuoteCharacter>
+          <adl_CodePage>utf_8</adl_CodePage>
+          <adl_BufferSize>16</adl_BufferSize>
+          <FIPSMode>false</FIPSMode>
+          <adl_SelectedIndex>test2.xlsx</adl_SelectedIndex>
+          <Secrets />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <SdkSettings Manifest="True" Language="Python" PluginDir="azure_data_lake_output" Transport="arrow">
+          <CustomParameters>
+            <Version Value="2.1.0" />
+            <ToolVersion Value="2.3.0" />
+          </CustomParameters>
+          <InputConnections>
+            <Connection AllowMultiple="False" Label="" Name="Input" Optional="False" Type="Connection" />
+          </InputConnections>
+          <OutputConnections />
+        </SdkSettings>
+      </Properties>
+      <EngineSettings EngineDll="SdkEnginePlugin.dll" EngineDllEntryPoint="SdkEnginePlugin" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="42" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input2</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>collect_excel_sheet_report_for_Data Specifications.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Completed" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="F2" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Mayank Agrawal" size="255" source="File: C:\Users\Mesbah.Khan\OneDrive - Shell\bCLEARerProjects\RDL\DEP\01 - Collect\Data\collect_excel_sheet_report_for_Data Specifications.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="42" y="186" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (5)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="258" y="282" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="42" y="42" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (7)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="282" y="138" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="8" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Question" />
+      <Destination ToolID="8" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (5)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (2)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>write_json_to_blob_container</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9fc8299e-adc6-4eb6-bedc-28306cbb21c7" />
+      <Telemetry>
+        <PreviousWorkflowId value="4b5682c5-c1d4-4e4c-94bb-1f35763ca56f" />
+        <OriginWorkflowId value="bdfccd4b-2e6a-405b-956b-1896808bb3bd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="6" />
+              <Expression>[#1]</Expression>
+              <Destination>1/adl_FilePath</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="8" />
+              <Expression>[#1]</Expression>
+              <Destination>1/adl_Gen2FileSystemName</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (3)</Name>
+          <ToolId value="3" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>blob_path_and_file_name</Description>
+              <Name>Control Parameter (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (2)</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>bclearer_stage_name</Description>
+              <Name>Control Parameter (7)</Name>
+              <ToolId value="7" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (5)</Name>
+            <Description>blob_path_and_file_name</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Control Parameter (7)</Name>
+            <Description>bclearer_stage_name</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="1" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

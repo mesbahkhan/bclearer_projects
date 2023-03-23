@@ -1,0 +1,1545 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="174" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>C:\Users\Mesbah.Khan\Shell\Manufacturing Digital Twin - Rhineland E&amp;I UCE\AI Global Template Contents_For Aveva Review\LTTS_(For Aveva Review)\49 DEP Backend Excel forms_(For Aveva Review)</Directory>
+          <FileSpec>*.*</FileSpec>
+          <IncludeSubDirs value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>1. Directory Tool</AnnotationText>
+          <DefaultAnnotationText>dir C:\Users\Mesbah.Khan\Shell\Manufacturing Digital Twin - Rhineland E&amp;I UCE\AI Global Template Contents_For Aveva Review\LTTS_(For Aveva Review)\49 DEP Backend Excel forms_(For Aveva Review)\*.*</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="474" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Force XLS Toggle">False</Value>
+          <Value name="Kill Excel Tasks">True</Value>
+          <Value name="ControlParams"><![CDATA[FullPath=FullPath
+Control Parameter (53)=BatchID
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2. Sheet Finder Macro</AnnotationText>
+          <DefaultAnnotationText>2. Sheet Finder Macro</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output7">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SupportingMacros\SheetFinder.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FolderBrowse.FolderBrowse">
+        <Position x="102" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Select the directory container your Excel files</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="114" y="126" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Directory with Folder Browse</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="1074" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Drop Down (9)">Path</Value>
+          <Value name="ControlParams"><![CDATA[Control Parameter (3)=FileName
+Control Parameter (10)=Sheet Names
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sheet Reader Macro</AnnotationText>
+          <DefaultAnnotationText>Sheet Reader Macro</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ColumnN" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="Double" />
+            <Field name="ColumnZ" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnP" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="Double" />
+            <Field name="ColumnL" size="255" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+            <Field name="ColumnS" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="Double" />
+            <Field name="ColumnJ" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnJ2" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="Double" />
+            <Field name="ColumnH" size="255" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="V_String" />
+            <Field name="F5" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F6" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F7" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F8" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F9" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F10" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F11" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F12" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F13" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F14" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F15" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F16" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F17" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F18" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F19" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F20" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F21" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F22" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F23" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F24" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F25" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F26" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F27" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F28" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F29" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F30" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F31" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F32" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F33" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F34" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F35" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F36" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F37" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F38" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F39" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F40" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F41" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F42" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F43" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F44" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F45" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F46" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F47" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F48" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F49" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F50" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F51" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F52" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F53" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F54" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F55" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F56" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F57" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F58" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F59" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F60" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F61" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F62" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F63" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F64" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F65" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F66" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F67" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F68" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F69" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F70" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F71" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F72" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F73" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnI" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnO" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnD" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnY" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="ColumnM" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnR" size="255" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SupportingMacros\SheetReader.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="258" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Include SubDirectories</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="270" y="126" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update Subdirectory Checkbox</AnnotationText>
+          <DefaultAnnotationText>Update Subdirectory Checkbox
+Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>FileGetExt([FullPath]) IN (".xls",".xlsx",".xlsm",".xlsb")
+
+//FileGetExt([FullPath]) IN (".xls")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FileGetExt([FullPath]) IN (".xls",".xlsx",".xlsm",".xlsb")
+
+/...</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
+        <Position x="414" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Select Excel File Types to Consume</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="402" y="132" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update File Extension Filter</AnnotationText>
+          <DefaultAnnotationText>Update File Extension Filter
+Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1050" y="138" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output Filename Option</AnnotationText>
+          <DefaultAnnotationText>Output Filename Option
+Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="1038" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output File Name as Field</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1266" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output19</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="390" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>BatchID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Number each batch</AnnotationText>
+          <DefaultAnnotationText>Number each batch</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BatchID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="BatchID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="486" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Sheets" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Sheet1</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheets" size="6" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="786" y="126" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Sheet Condition</Name>
+          <AnnotationText>Sheet Condition</AnnotationText>
+          <DefaultAnnotationText>Sheet Condition
+[#1]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="570" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Sheets</Field>
+          <NumFields value="1" />
+          <Delimeters value="," />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheets" name="Sheets" size="6" source="TextToColumns: Parsed from Sheets" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="654" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Sheets" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Sheet Names" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Sheet Names" selected="True" />
+                <SelectField field="Right_FileName" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheets" name="Sheets" size="6" source="TextToColumns: Parsed from Sheets" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheets" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="882" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="774" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>1</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="906" y="222" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Turn On Non Matching Sheets</AnnotationText>
+          <DefaultAnnotationText>Turn On Non Matching Sheets
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="786" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Specify Sheets?</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="762" y="222" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Turn Off Non-Matching Sheets</AnnotationText>
+          <DefaultAnnotationText>Turn Off Non-Matching Sheets
+Update Value with Formula</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="606" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Enter the sheet names you want to include (comma delimate multiple sheet names)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="126" y="234" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Filter File Names?</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="54" y="198" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customize Directory Tool File Specification</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="126" y="306" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[#1]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="102" y="378" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="534" y="222" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Pass Sheet List</AnnotationText>
+          <DefaultAnnotationText>Pass Sheet List
+Update Cell</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings>
+        <Position x="1074" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Drop Down (9)">Path</Value>
+          <Value name="ControlParams"><![CDATA[Control Parameter (3)=FileName
+Control Parameter (10)=Sheet Names
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SupportingMacros\SheetFieldsReader.yxmc" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="978" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="(Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="99" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="1170" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ColumnN" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="Double" />
+            <Field name="ColumnZ" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnP" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="Double" />
+            <Field name="ColumnL" size="255" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`F$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+            <Field name="ColumnS" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="Double" />
+            <Field name="ColumnJ" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnJ2" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="Double" />
+            <Field name="ColumnH" size="255" source="File: C:\Users\csteele\Desktop\Examples\Read all Excel - XLS - XLSX - XLSB\Read_All_Excel_Files\XLSX.xlsx|||`TESTX$`" type="V_String" />
+            <Field name="F5" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F6" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F7" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F8" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F9" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F10" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F11" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F12" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F13" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F14" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F15" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F16" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F17" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F18" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F19" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F20" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F21" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F22" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F23" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F24" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F25" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F26" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F27" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F28" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F29" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F30" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F31" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F32" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F33" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F34" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F35" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F36" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F37" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F38" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F39" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F40" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F41" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F42" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F43" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F44" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F45" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F46" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F47" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F48" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F49" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F50" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F51" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F52" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F53" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F54" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F55" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F56" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F57" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F58" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F59" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F60" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F61" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F62" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F63" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F64" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F65" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F66" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F67" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F68" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F69" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F70" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F71" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F72" source="File: (Multiple Sources)" type="Double" />
+            <Field name="F73" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnI" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnO" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnD" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnY" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="ColumnM" source="File: (Multiple Sources)" type="Double" />
+            <Field name="ColumnR" size="255" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1242" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Get Field Lists instead of Data?</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1254" y="174" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Detour Direction from Question</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1530" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Use XLS sheet finder for all types?</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1542" y="162" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update force XLS toggle on sheet finder macro</AnnotationText>
+          <DefaultAnnotationText>Update force XLS toggle on sheet finder macro
+Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="15" Connection="Action" />
+      <Destination ToolID="13" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output7" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Question" />
+      <Destination ToolID="10" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="10" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="12" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="44" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Question" />
+      <Destination ToolID="12" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Question" />
+      <Destination ToolID="15" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="17" Connection="Action" />
+      <Destination ToolID="5" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Left" />
+      <Destination ToolID="5" Connection="Control" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Question" />
+      <Destination ToolID="17" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="3" Connection="Control" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="50" Connection="Action" />
+      <Destination ToolID="3" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True Condition" />
+      <Destination ToolID="24" Connection="Condition" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Question" />
+      <Destination ToolID="24" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="False Condition" />
+      <Destination ToolID="33" Connection="Condition" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True Condition" />
+      <Destination ToolID="35" Connection="Condition" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="35" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="32" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Right" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="32" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="35" Connection="Action" />
+      <Destination ToolID="32" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="46" Connection="Action" />
+      <Destination ToolID="43" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="27" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="23" Connection="Question" />
+      <Destination ToolID="27" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="Question" />
+      <Destination ToolID="38" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="37" Connection="Question" />
+      <Destination ToolID="39" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True Condition" />
+      <Destination ToolID="39" Connection="Condition" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Right" />
+      <Destination ToolID="42" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="45" Connection="Question" />
+      <Destination ToolID="46" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="48" Connection="Question" />
+      <Destination ToolID="50" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="True" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="1" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Folder Browse (9)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>List Box (14)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (18)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (19)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (23)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (34)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (36)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (37)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (45)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (48)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>merge_multiple_excel_files</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1ffc3e35-018e-4a25-8ed4-4bcdeb88839d" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="1ffc3e35-018e-4a25-8ed4-4bcdeb88839d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="10" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>1/Directory</Destination>
+              <Mapping>Update Directory with Folder Browse</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="12" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>1/IncludeSubDirs/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="15" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>".xls",".xlsx",".xlsm",".xlsb"</ReplaceText>
+              <Destination>13/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="17" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>5/Value[@name='Drop Down (9)']</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="46" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>43/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="50" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>3/Value[@name='Force XLS Toggle']</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="27" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="24" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>25/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="35" />
+              <Expression>"0"</Expression>
+              <Destination>32/Expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="33" />
+              <Expression>"1"</Expression>
+              <Destination>32/Expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </False>
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="38" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="39" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>1/FileSpec</Destination>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Folder</Description>
+          <Name>Tab (8)</Name>
+          <ToolId value="8" />
+          <Questions>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Include SubDirectories</Description>
+              <Name>Check Box (11)</Name>
+              <ToolId value="11" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>FolderBrowse</Type>
+              <Description>Select the directory container your Excel files</Description>
+              <Name>Folder Browse (9)</Name>
+              <ToolId value="9" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (19)</Description>
+              <Name>Macro Output (19)</Name>
+              <ToolId value="19" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Options</Description>
+          <Name>Tab (21)</Name>
+          <ToolId value="21" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Output File Name as Field</Description>
+              <Name>Drop Down (18)</Name>
+              <ToolId value="18" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[No5419541n5148905f1n0941f5809
+File Name Only5419541n5148905f1n0941f5809FileName
+Entire Path5419541n5148905f1n0941f5809Path
+]]></Manual_Values>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Select Excel File Types to Consume</Description>
+              <Name>List Box (14)</Name>
+              <ToolId value="14" />
+              <Multiple value="True" />
+              <Multiple_Custom value="True" />
+              <Multiple_Start>"</Multiple_Start>
+              <Multiple_Separator>","</Multiple_Separator>
+              <Multiple_End>"</Multiple_End>
+              <Multiple_Default value="False" />
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[Excel 2003 Files (*.xls)5419541n5148905f1n0941f5809.xls
+Excel 2007+ Standard Files (*.xlsx)5419541n5148905f1n0941f5809.xlsx
+Excel 2007+ Binary Files (*.xlsb)5419541n5148905f1n0941f5809.xlsb
+Excel 2007+ Macro Enabled Files (*.xlsm)5419541n5148905f1n0941f5809.xlsm
+]]></Manual_Values>
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Specify Sheets?</Description>
+              <Name>Check Box (34)</Name>
+              <ToolId value="34" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Enter the sheet names you want to include (comma delimate multiple sheet names)</Description>
+                  <Name>Text Box (23)</Name>
+                  <ToolId value="23" />
+                  <Default />
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="True" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Filter File Names?</Description>
+              <Name>Check Box (36)</Name>
+              <ToolId value="36" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Customize Directory Tool File Specification</Description>
+                  <Name>Text Box (37)</Name>
+                  <ToolId value="37" />
+                  <Default>*.xls</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>Label</Type>
+                  <Description>Example:  Prefix*Suffix.xls</Description>
+                  <Name>Label (40)</Name>
+                  <ToolId value="40" />
+                </Question>
+                <Question>
+                  <Type>Label</Type>
+                  <Description>Note: the ".xls" is key to finding Excel files.  This macro will not work with non-excel files.</Description>
+                  <Name>Label (41)</Name>
+                  <ToolId value="41" />
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="True" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Get Field Lists instead of Data?</Description>
+              <Name>Check Box (45)</Name>
+              <ToolId value="45" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Use XLS sheet finder for all types?</Description>
+              <Name>Check Box (48)</Name>
+              <ToolId value="48" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="5" Selected="True" />
+        <Tool ToolId="19" Selected="True" />
+        <Tool ToolId="42" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
